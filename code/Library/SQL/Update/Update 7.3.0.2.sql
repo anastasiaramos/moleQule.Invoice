@@ -1,0 +1,9 @@
+/* UPDATE 7.3.0.2 */
+
+SET SEARCH_PATH = "COMMON";
+
+UPDATE "Variable" SET "VALUE" = '7.3.0.2' WHERE "NAME" = 'INVOICE_DB_VERSION';
+
+SET SEARCH_PATH = "0001";
+
+ALTER TABLE "IVClient" ADD COLUMN "PREFIX" character varying(255);

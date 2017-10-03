@@ -1,0 +1,204 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="moleQule.Library.Invoice.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SETTING_NAME_DEFAULT_SERIE_VENTA" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DEFAULT_SERIE_VENTA</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_SALIDA_CONTABILIDAD_FOLDER" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SALIDA_CONTABILIDAD_FOLDER</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_LAST_ENTRY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LAST_ENTRY</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_JOURNAL_VARIABLE_NAME" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">JOURNAL</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_USE_TPV_COUNT" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">USE_TPV_COUNT</Value>
+    </Setting>
+    <Setting Name="FACTURA_WEB_SCRIPT" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">/facturas/factura.php?id={0}</Value>
+    </Setting>
+    <Setting Name="DB_VERSION_VARIABLE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">INVOICE_DB_VERSION</Value>
+    </Setting>
+    <Setting Name="DB_VERSION" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">7.4.7.2</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_CUENTA_SEGUROS_SOCIALES" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CUENTA_SEGUROS_SOCIALES</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_CUENTA_NOMINAS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CUENTA_NOMINAS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_CUENTA_IRPF" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CUENTA_HACIENDA_PUBLICA</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_CUENTA_REMUNERACIONES" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CUENTA_REMUNERACIONES</Value>
+    </Setting>
+    <Setting Name="NAME" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">INVOICE</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_CUENTA_EFECTOS_A_PAGAR" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CUENTA_EFECTOS_A_PAGAR</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_CUENTA_EFECTOS_A_COBRAR" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CUENTA_EFECTOS_A_COBRAR</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_N_DIGITOS_CUENTAS_CONTABLES" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">N_DIGITOS_CUENTAS_CONTABLES</Value>
+    </Setting>
+    <Setting Name="MODULE_VERSION" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">4.5.0.0</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_LINEA_CAJA_LIBRE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LINEA_CAJA_LIBRE</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_NOTIFY_COBROS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NOTIFY_COBROS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_NOTIFY_FACTURAS_EMITIDAS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NOTIFY_FACTURAS_EMITIDAS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_NOTIFY_PLAZO_COBROS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NOTIFY_PLAZO_COBROS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_NOTIFY_PLAZO_FACTURAS_EMITIDAS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NOTIFY_PLAZO_FACTURAS_EMITIDAS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_BALANCE_PRINT_FACTURAS_EXPLOTACION" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">BALANCE_PRINT_FACTURAS_EXPLOTACION</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_BALANCE_PRINT_FACTURAS_ACREEDORES" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">BALANCE_PRINT_FACTURAS_ACREEDORES</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_BALANCE_PRINT_OTROS_GASTOS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">BALANCE_PRINT_OTROS_GASTOS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_BALANCE_PRINT_GASTOS_NOMINAS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">BALANCE_PRINT_GASTOS_NOMINAS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_BALANCE_PRINT_EFECTOS_PENDIENTES_VTO" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">BALANCE_PRINT_EFECTOS_PENDIENTES_VTO</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_BALANCE_PRINT_PAGOS_ESTIMADOS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">BALANCE_PRINT_PAGOS_ESTIMADOS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_BALANCE_PRINT_FACTURAS_EMITIDAS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">BALANCE_PRINT_FACTURAS_EMITIDAS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_BALANCE_PRINT_EXISTENCIAS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">BALANCE_PRINT_EXISTENCIAS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_BALANCE_PRINT_EFECTOS_NEGOCIADOS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">BALANCE_PRINT_EFECTOS_NEGOCIADOS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_BALANCE_PRINT_EFECTOS_PENDIENTES" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">BALANCE_PRINT_EFECTOS_PENDIENTES</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_BALANCE_PRINT_AYUDAS_PENDIENTES" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">BALANCE_PRINT_AYUDAS_PENDIENTES</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_BALANCE_PRINT_AYUDAS_COBRADAS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">BALANCE_PRINT_AYUDAS_COBRADAS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_BALANCE_PRINT_BANCOS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">BALANCE_PRINT_BANCOS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_IMPUESTOS_IMPORTACION" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">IMPUESTOS_IMPORTACION</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_CAJA_TICKETS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CAJA_TICKETS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_N_DIGITOS_N_FACTURA" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">N_DIGITOS_N_FACTURA</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_N_DECIMALES_PRECIOS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">N_DECIMALES_PRECIOS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_CUENTA_SUBVENCIONES" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CUENTA_SUBVENCIONES</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_TIPO_INTERES_GASTOS_DEMORA" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TIPO_INTERES_GASTOS_DEMORA</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_ENVIAR_FACTURAS_PENDIENTES" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ENVIAR_FACTURAS_PENDIENTES</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_PLAZO_ENVIO_FACTURAS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PLAZO_ENVIO_FACTURAS_PENDIENTES</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_FECHA_ULTIMO_ENVIO_FACTURAS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">FECHA_ULTIMO_ENVIO_FACTURAS_PENDIENTES</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_PERIODICIDAD_ENVIO_FACTURAS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PERIODICIDAD_ENVIO_FACTURAS_PENDIENTES</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_DEFAULT_TICKET_PRINTER" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DEFAULT_TICKET_PRINTER</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_HORA_ENVIO_FACTURAS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">HORA_ENVIO_FACTURAS_PENDIENTES</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_CODIGO_EMPRESA_A3" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CODIGO_EMPRESA_A3</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_EMPRESA_TINFOR" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">EMPRESA_TINFOR</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_LAST_ENTRY_TINFOR" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LAST_ENTRY_TINFOR</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_JOURNAL_TINFOR" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">JOURNAL_TINFOR</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_CENTRO_TRABAJO_TINFOR" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CENTRO_TRABAJO_TINFOR</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_DEFAULT_TIPO_EXPORTACION" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DEFAULT_TIPO_EXPORTACION</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_PAYMENT_GATEWAY_NAME" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PAYMENT_GATEWAY_NAME</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_PAYMENT_GATEWAY_CODE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PAYMENT_GATEWAY_CODE</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_PAYMENT_GATEWAY_API_HOST" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PAYMENT_GATEWAY_API_HOST</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_PAYMENT_GATEWAY_OPERATION_HOST" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PAYMENT_GATEWAY_OPERATION_HOST</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_PAYMENT_GATEWAY_SIGNATURE_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PAYMENT_GATEWAY_SIGNATURE_KEY</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_PAYMENT_GATEWAY_MERCHANT_NAME" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PAYMENT_GATEWAY_MERCHANT_NAME</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_PAYMENT_GATEWAY_MERCHANT_CODE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PAYMENT_GATEWAY_MERCHANT_CODE</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_PAYMENT_GATEWAY_CURRENCY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PAYMENT_GATEWAY_CURRENCY</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_PAYMENT_GATEWAY_OK_RESPONSE_URL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PAYMENT_GATEWAY_OK_RESPONSE_URL</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_PAYMENT_GATEWAY_KO_RESPONSE_URL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PAYMENT_GATEWAY_KO_RESPONSE_URL</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_PAYMENT_GATEWAY_CURL_CA" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PAYMENT_GATEWAY_CURL_CA</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_WORK_DELIVERY_SERIE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">WORK_DELIVERY_SERIE</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_INVOICE_TEMPLATE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">INVOICE_TEMPLATE</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

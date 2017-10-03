@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACREEDOR_EXISTENTE" xml:space="preserve">
+    <value>Ya existe una factura de este tipo de acreedor asociada al expediente. ¿Desea establecer esta como la factura principal de este acreedor para el expediente seleccionado?</value>
+  </data>
+  <data name="ALUMNO_YA_ASOCIADO" xml:space="preserve">
+    <value>Este alumno ya ha sido asociado al cliente</value>
+  </data>
+  <data name="AVISO_PERDIDA" xml:space="preserve">
+    <value>"ATENCION: Está usted vendiendo en pérdida o sin beneficio. ¿Desea continuar?"</value>
+  </data>
+  <data name="BULTOS_INSUFICIENTES" xml:space="preserve">
+    <value>Bultos insuficientes. Cantidad actual:</value>
+  </data>
+  <data name="CIERRE_CAJA_COBRO" xml:space="preserve">
+    <value>Imposible eliminar este cobro. Tiene asociada la línea de caja nº {0} de fecha {1} que está incluida en un cierre de caja.</value>
+  </data>
+  <data name="CREDITO_DISPUESTO" xml:space="preserve">
+    <value>El crédito dispuesto ({0}) por este cliente es superior a su crédito disponible ({1}).
+¿Continuar con la operación?</value>
+  </data>
+  <data name="IMPORTANDO_ALBARANES" xml:space="preserve">
+    <value>Importando albaranes seleccionados...</value>
+  </data>
+  <data name="INCORRECT_PRICE" xml:space="preserve">
+    <value>Wrong price</value>
+  </data>
+  <data name="INVALID_PRICE" xml:space="preserve">
+    <value>Wrong price. It should be bigger than 0.</value>
+  </data>
+  <data name="NO_CLIENT_SELECTED" xml:space="preserve">
+    <value>Select a client</value>
+  </data>
+  <data name="NO_MEDIO_PAGO_SELECTED" xml:space="preserve">
+    <value>Payment method not specified</value>
+  </data>
+  <data name="NO_PORT_SELECTED" xml:space="preserve">
+    <value>Port not specified</value>
+  </data>
+  <data name="NO_PRICE" xml:space="preserve">
+    <value>No ha puesto ningun precio. Asocie un precio al producto antes de continuar.</value>
+  </data>
+  <data name="NO_PROV_SELECTED" xml:space="preserve">
+    <value>Supplier not specified</value>
+  </data>
+  <data name="NOTA_FACTURA" xml:space="preserve">
+    <value>Mercancía que se acoge a los beneficios de la ayuda REA en cumplimiento del Reglamento 247/06 del Consejo.</value>
+  </data>
+  <data name="STOCK_INSUFICIENTE" xml:space="preserve">
+    <value>Insufficient stock. Current amount:</value>
+  </data>
+  <data name="TITULAR_FACTURA_DIFERENTE" xml:space="preserve">
+    <value>No es posible asignar albaranes de titulares distintos a una misma Factura</value>
+  </data>
+  <data name="EXPORTACION_SUCCESS" xml:space="preserve">
+    <value>Exportación finalizada con éxito.
+¿Desea ver el registro de exportación?</value>
+  </data>
+  <data name="EXPORTANDO_COBROS" xml:space="preserve">
+    <value>Exportando Cobros</value>
+  </data>
+  <data name="EXPORTANDO_FACTURAS_EMITIDAS" xml:space="preserve">
+    <value>Exportando Facturas Emitidas</value>
+  </data>
+  <data name="EXPORTANDO_PAGOS" xml:space="preserve">
+    <value>Exportando Pagos</value>
+  </data>
+  <data name="EXPORTANDO_FACTURAS_RECIBIDAS" xml:space="preserve">
+    <value>Exportando Facturas Recibidas</value>
+  </data>
+  <data name="INICIANDO_EXPORTACION" xml:space="preserve">
+    <value>Iniciando Exportación</value>
+  </data>
+  <data name="NO_SERIE_SELECTED" xml:space="preserve">
+    <value>Invoice Serial not specified</value>
+  </data>
+  <data name="NO_CENTRO_SELECTED" xml:space="preserve">
+    <value>No ha indicado el Centro de Trabajo</value>
+  </data>
+  <data name="NO_COMPANY_SELECTED" xml:space="preserve">
+    <value>Company not specified</value>
+  </data>
+  <data name="FACTURA_CON_ALBARANES" xml:space="preserve">
+    <value>No es posible cambiar el Cliente a una factura con albaranes asociados.</value>
+  </data>
+  <data name="EXPORTANDO_GASTOS" xml:space="preserve">
+    <value>Exportando Gastos</value>
+  </data>
+  <data name="EXPORTANDO_NOMINAS" xml:space="preserve">
+    <value>Exportando Nóminas</value>
+  </data>
+  <data name="NOFITY_COBROS_PENDIENTES" xml:space="preserve">
+    <value>COBROS PTES. CON VTO. ANTERIOR AL {0}</value>
+  </data>
+  <data name="NOFITY_FACTURAS_EMITIDAS_PENDIENTES" xml:space="preserve">
+    <value>FRAS. EMITIDAS PTES. CON PREV. ANTERIOR AL {0}</value>
+  </data>
+  <data name="RETRIEVING_BALANCE" xml:space="preserve">
+    <value>Retrieving data for Balance</value>
+  </data>
+  <data name="PRINTING" xml:space="preserve">
+    <value>Printing list of {0}...</value>
+  </data>
+  <data name="BANCOS" xml:space="preserve">
+    <value>Banks</value>
+  </data>
+  <data name="CAJA" xml:space="preserve">
+    <value>Cash</value>
+  </data>
+  <data name="EFECTOS_NEGOCIADOS" xml:space="preserve">
+    <value>Efectos Negociados</value>
+  </data>
+  <data name="EFECTOS_PENDIENTES" xml:space="preserve">
+    <value>Efectos Pendientes de Cobro</value>
+  </data>
+  <data name="EFECTOS_PENDIENTES_VTO" xml:space="preserve">
+    <value>Efectos Pendientes de Vencimiento</value>
+  </data>
+  <data name="EXISTENCIAS" xml:space="preserve">
+    <value>Existencias</value>
+  </data>
+  <data name="PAGOS_ESTIMADOS" xml:space="preserve">
+    <value>Facturas Pendientes Estimadas</value>
+  </data>
+  <data name="COMPACTANDO_ALBARANES" xml:space="preserve">
+    <value>Agrupando albaranes y actualizando stocks...</value>
+  </data>
+  <data name="ALBARAN_TICKET_EXISTS" xml:space="preserve">
+    <value>Existe un ticket asociado a este albarán</value>
+  </data>
+  <data name="NOTIFY_COBROS_VENCIDOS" xml:space="preserve">
+    <value>COBROS VENCIDOS A {0}</value>
+  </data>
+  <data name="RETRIEVING_EXTRACTOS" xml:space="preserve">
+    <value>Retrieving Credit Cards Statements</value>
+  </data>
+  <data name="GENERANDO_FACTURAS" xml:space="preserve">
+    <value>Generando facturas...</value>
+  </data>
+  <data name="PEDIDO_COMPLETO" xml:space="preserve">
+    <value>Pedido completo. No existen artículos pendientes de servir.</value>
+  </data>
+  <data name="EXPORTANDO_AYUDAS" xml:space="preserve">
+    <value>Exportando Ayudas</value>
+  </data>
+  <data name="PRESTAMO_CON_PAGOS_ASOCIADOS" xml:space="preserve">
+    <value>No es posible borrar el préstamo seleccionado mientras tenga pagos asociados.</value>
+  </data>
+  <data name="AVISO_STOCK_MINIMO" xml:space="preserve">
+    <value>"ATENCION: Está usted intentado añadir un producto cuyo stock quedará por debajo del mínimo que se ha indicado para el mismo. ¿Desea continuar?"</value>
+  </data>
+  <data name="AVISO_BENEFICIO_MINIMO" xml:space="preserve">
+    <value>"ATENCION: Está usted vendiendo con beneficio inferior al beneficio mínimo establecido para el producto. ¿Desea continuar?"</value>
+  </data>
+  <data name="PRESTAMO_ASOCIADO_PAGO_FACTURA" xml:space="preserve">
+    <value>El préstamo que está intentando borrar está asociado a un pago de factura y no es posible realizar la operación.</value>
+  </data>
+  <data name="EXPORTANDO_TRASPASOS" xml:space="preserve">
+    <value>Exporting Transfers</value>
+  </data>
+  <data name="NO_WORK_REPORT_SELECTED" xml:space="preserve">
+    <value>Select a work report</value>
+  </data>
+  <data name="EXPORTING_OUTPUT_DELIVERIES" xml:space="preserve">
+    <value>Exporting output deliveries...</value>
+  </data>
+  <data name="EXPORTING_OUTPUT_INVOICES" xml:space="preserve">
+    <value>Exporting output invoices...</value>
+  </data>
+  <data name="NO_HOLDER_SELECTED" xml:space="preserve">
+    <value>Destination holder not selected</value>
+  </data>
+</root>

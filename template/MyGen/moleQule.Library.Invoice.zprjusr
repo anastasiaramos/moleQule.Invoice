@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project name="moleQule.Library.Invoice">
+  <modules>
+    <module name="BankLine" />
+    <module name="BankTransfer" />
+    <module name="Budget" />
+    <module name="Cash" />
+    <module name="Charge" />
+    <module name="Client" />
+    <module name="Delivery" />
+    <module name="Invoice" />
+    <module name="Loan" />
+    <module name="Order" />
+    <module name="Ticket" />
+    <module name="Transaction" />
+  </modules>
+</project>

@@ -1,0 +1,4 @@
+﻿
+SET SEARCH_PATH = "0001";
+
+DELETE FROM "STTransactionPayment" WHERE "TIPO_PAGO" = 6;

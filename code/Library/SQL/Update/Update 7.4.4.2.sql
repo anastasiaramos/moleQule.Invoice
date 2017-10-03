@@ -1,0 +1,9 @@
+/* UPDATE 7.4.4.2 */
+
+SET SEARCH_PATH = "COMMON";
+
+UPDATE "Variable" SET "VALUE" = '7.4.4.2' WHERE "NAME" = 'INVOICE_DB_VERSION';
+
+SET SEARCH_PATH = "0001";
+
+ALTER TABLE "IVClient" ADD COLUMN "SWIFT" character varying(255);

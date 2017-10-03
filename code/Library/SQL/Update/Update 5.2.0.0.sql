@@ -1,0 +1,75 @@
+﻿/* UPDATE 5.2.0.0*/
+
+SET SEARCH_PATH = "COMMON";
+
+UPDATE "Variable" SET "VALUE" = '5.2.0.0' WHERE "NAME" = 'INVOICE_DB_VERSION';
+
+SET SEARCH_PATH = "0001";
+
+CREATE TABLE "Ticket" 
+( 
+	"OID" bigserial NOT NULL,
+	"OID_SERIE" int8,
+	"OID_TPV" int8,
+	"SERIAL" int8 DEFAULT 0 NOT NULL UNIQUE,
+	"CODIGO" varchar(255),
+	"ESTADO" bigint DEFAULT 1,
+	"TIPO" bigint DEFAULT 1,
+	"FECHA" timestamp without time zone,
+	"BASE_IMPONIBLE" numeric(10,2),
+	"IMPUESTOS" numeric(10,2),
+	"DESCUENTO" numeric(10,2),
+	"TOTAL" numeric(10,2),
+	"FORMA_PAGO" bigint DEFAULT 1,
+	"DIAS_PAGO" bigint DEFAULT 0,
+	"MEDIO_PAGO" bigint DEFAULT 1,
+	"PREVISION_PAGO" timestamp without time zone,
+	"OBSERVACIONES" text,
+	"ALBARANES" text,
+	CONSTRAINT "PK_Ticket" PRIMARY KEY ("OID")
+) WITHOUT OIDS;
+
+ALTER TABLE "Ticket" OWNER TO moladmin;
+GRANT ALL ON TABLE "Ticket" TO GROUP "MOLEQULE_ADMINISTRATOR";
+
+CREATE TABLE "Albaran_Ticket" 
+( 
+	"OID" bigserial NOT NULL,
+	"OID_ALBARAN" int8 NOT NULL,
+	"OID_TICKET" int8 NOT NULL,
+	"FECHA_ASIGNACION" timestamp without time zone,
+	CONSTRAINT "PK_Albaran_Ticket" PRIMARY KEY ("OID"),
+	CONSTRAINT "UQ_Albaran_Ticket_OID_ALBARAN" UNIQUE("OID_ALBARAN", "OID_TICKET")
+) WITHOUT OIDS;
+
+ALTER TABLE "Albaran_Ticket" OWNER TO moladmin;
+GRANT ALL ON TABLE "Albaran_Ticket" TO GROUP "MOLEQULE_ADMINISTRATOR";
+
+CREATE TABLE "ConceptoTicket" 
+( 
+	"OID" bigserial NOT NULL,
+	"OID_TICKET" int8,
+	"OID_PRODUCTO_EXPEDIENTE" int8,
+	"OID_EXPEDIENTE" int8,
+	"OID_PRODUCTO" int8,
+	"OID_KIT" int8 NOT NULL DEFAULT 0,
+	"OID_CONCEPTO_ALBARAN" int8,
+	"OID_IMPUESTO" int8,
+	"CODIGO_EXPEDIENTE" varchar(255),
+	"CONCEPTO" varchar(255),
+	"FACTURACION_BULTO" boolean,
+	"CANTIDAD" numeric(10,2),
+	"CANTIDAD_BULTOS" numeric(10,4),
+	"P_IMPUESTOS" numeric(10,2),
+	"P_DESCUENTO" numeric(10,2),
+	"TOTAL" numeric(10,2),
+	"PRECIO" numeric(10,5),
+	"SUBTOTAL" numeric(10,2),
+	"GASTOS" numeric(10,5),
+	CONSTRAINT "PK_ConceptoTicket" PRIMARY KEY ("OID")
+) WITHOUT OIDS;
+
+ALTER TABLE "ConceptoTicket" OWNER TO moladmin;
+GRANT ALL ON TABLE "ConceptoTicket" TO GROUP "MOLEQULE_ADMINISTRATOR";
+
+ALTER TABLE "Albaran_Ticket" ADD CONSTRAINT "FK_Albaran_Ticket_Ticket" FOREIGN KEY ("OID_TICKET") REFERENCES "Ticket" ("OID") ON UPDATE CASCADE ON DELETE CASCADE;

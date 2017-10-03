@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project name="moleQule.WebFace.Invoice" description="New Zeus Project file" defaultSettingsOverride="False">
+  <modules>
+    <module name="Caja" description="" defaultSettingsOverride="False" />
+    <module name="Cliente" description="" defaultSettingsOverride="False" />
+    <module name="Cobro" description="" defaultSettingsOverride="False">
+      <objects>
+        <obj name="ChargeViewModel" uid="97e5f35d-ef93-4f77-abb9-244884aa55da" path="E:\Proyectos\GitRepo\moleQule\moleQule.MyGeneration\CSharp_mQLibrary_ReadOnlyBaseEx.vbgen">
+          <items>
+            <item name="__dbConnectionString" type="System.String" val="Server=tea.iqingenieros.com;Port=5432;User Id=moladmin;Password=iQi_1998;Database=IRYS" />
+            <item name="__dbDriver" type="System.String" val="POSTGRESQL" />
+            <item name="__dbLanguageMappingFileName" type="System.String" val="C:\Program Files\MyGeneration13\Settings\Languages.xml" />
+            <item name="__dbTargetMappingFileName" type="System.String" val="C:\Program Files\MyGeneration13\Settings\DbTargets.xml" />
+            <item name="__defaultOutputPath" type="System.String" val="E:\Proyectos\GitRepo" />
+            <item name="__defaultTemplatePath" type="System.String" val="E:\Proyectos\GitRepo\moleQule\moleQule.MyGeneration" />
+            <item name="__domainOverride" type="System.Boolean" val="True" />
+            <item name="__showDefaultDatabaseOnly" type="System.String" val="False" />
+            <item name="__userMetaDataFileName" type="System.String" val="C:\Program Files\MyGeneration13\Settings\UserMetaData.xml" />
+            <item name="__version" type="System.String" val="1.3.1.1" />
+            <item name="btnPath" type="System.String" val="" />
+            <item name="chkAux" type="System.Boolean" val="False" />
+            <item name="chkRoot" type="System.Boolean" val="True" />
+            <item name="cmbDatabase" type="System.String" val="IRYS" />
+            <item name="dbConnectionString" type="System.Boolean" val="True" />
+            <item name="dbDriver" type="System.String" val="POSTGRESQL" />
+            <item name="defaultOutputPath" type="System.String" val="E:\Proyectos\GitRepo" />
+            <item name="defaultTemplatePath" type="System.String" val="E:\Proyectos\GitRepo\moleQule\moleQule.MyGeneration" />
+            <item name="lstChilds" type="System.Collections.ArrayList" val="" />
+            <item name="lstTables" type="System.Collections.ArrayList" val="System.String|H|IVCharge;" />
+            <item name="txtModule" type="System.String" val="Charge" />
+            <item name="txtPath" type="System.String" val="E:\Proyectos\GitRepo\moleQule.Invoice\code\WebFace\Models\Charge" />
+          </items>
+        </obj>
+      </objects>
+    </module>
+    <module name="Delivery" description="" defaultSettingsOverride="False">
+      <objects>
+        <obj name="DeliveryLineViewModel" uid="97e5f35d-ef93-4f77-abb9-244884aa55da" path="D:\Proyectos\GitRepo\moleQule\moleQule.MyGeneration\CSharp_mQLibrary_ReadOnlyBaseEx.vbgen">
+          <items>
+            <item name="__dbConnectionString" type="System.String" val="Server=localhost;Port=5432;User Id=moladmin;Password=iQi_1998;Database=IRYS" />
+            <item name="__dbDriver" type="System.String" val="POSTGRESQL" />
+            <item name="__dbLanguageMappingFileName" type="System.String" val="C:\Program Files\MyGeneration13\Settings\Languages.xml" />
+            <item name="__dbTarget" type="System.String" val="Npgsql" />
+            <item name="__dbTargetMappingFileName" type="System.String" val="C:\Program Files\MyGeneration13\Settings\DbTargets.xml" />
+            <item name="__defaultOutputPath" type="System.String" val="D:\Proyectos\GitRepo" />
+            <item name="__defaultTemplatePath" type="System.String" val="D:\Proyectos\GitRepo\moleQule\moleQule.MyGeneration" />
+            <item name="__domainOverride" type="System.Boolean" val="True" />
+            <item name="__language" type="System.String" val="C# (Npgsql)" />
+            <item name="__userMetaDataFileName" type="System.String" val="C:\Program Files\MyGeneration13\Settings\UserMetaData.xml" />
+            <item name="__version" type="System.String" val="1.3.0.3" />
+            <item name="btnPath" type="System.String" val="D:\Proyectos\GitRepo\moleQule.Invoice\code\WebFace\Models\Delivery" />
+            <item name="chkAux" type="System.Boolean" val="False" />
+            <item name="chkRoot" type="System.Boolean" val="True" />
+            <item name="cmbDatabase" type="System.String" val="IRYS" />
+            <item name="dbConnectionString" type="System.Boolean" val="True" />
+            <item name="dbDriver" type="System.String" val="POSTGRESQL" />
+            <item name="defaultOutputPath" type="System.String" val="D:\Proyectos\GitRepo" />
+            <item name="defaultTemplatePath" type="System.String" val="D:\Proyectos\GitRepo\moleQule\moleQule.MyGeneration" />
+            <item name="lstChilds" type="System.Collections.ArrayList" val="" />
+            <item name="lstTables" type="System.Collections.ArrayList" val="System.String|H|ConceptoAlbaran;" />
+            <item name="txtModule" type="System.String" val="Invoice" />
+            <item name="txtPath" type="System.String" val="D:\Proyectos\GitRepo\moleQule.Invoice\code\WebFace\Models\Delivery" />
+          </items>
+        </obj>
+        <obj name="DeliveryViewModel" uid="97e5f35d-ef93-4f77-abb9-244884aa55da" path="D:\Proyectos\GitRepo\moleQule\moleQule.MyGeneration\CSharp_mQLibrary_ReadOnlyBaseEx.vbgen">
+          <items>
+            <item name="__dbConnectionString" type="System.String" val="Server=localhost;Port=5432;User Id=moladmin;Password=iQi_1998;Database=IRYS" />
+            <item name="__dbDriver" type="System.String" val="POSTGRESQL" />
+            <item name="__dbLanguageMappingFileName" type="System.String" val="C:\Program Files\MyGeneration13\Settings\Languages.xml" />
+            <item name="__dbTarget" type="System.String" val="Npgsql" />
+            <item name="__dbTargetMappingFileName" type="System.String" val="C:\Program Files\MyGeneration13\Settings\DbTargets.xml" />
+            <item name="__defaultOutputPath" type="System.String" val="D:\Proyectos\GitRepo" />
+            <item name="__defaultTemplatePath" type="System.String" val="D:\Proyectos\GitRepo\moleQule\moleQule.MyGeneration" />
+            <item name="__domainOverride" type="System.Boolean" val="True" />
+            <item name="__language" type="System.String" val="C# (Npgsql)" />
+            <item name="__userMetaDataFileName" type="System.String" val="C:\Program Files\MyGeneration13\Settings\UserMetaData.xml" />
+            <item name="__version" type="System.String" val="1.3.0.3" />
+            <item name="btnPath" type="System.String" val="" />
+            <item name="chkAux" type="System.Boolean" val="False" />
+            <item name="chkRoot" type="System.Boolean" val="True" />
+            <item name="cmbDatabase" type="System.String" val="IRYS" />
+            <item name="dbConnectionString" type="System.Boolean" val="True" />
+            <item name="dbDriver" type="System.String" val="POSTGRESQL" />
+            <item name="defaultOutputPath" type="System.String" val="D:\Proyectos\GitRepo" />
+            <item name="defaultTemplatePath" type="System.String" val="D:\Proyectos\GitRepo\moleQule\moleQule.MyGeneration" />
+            <item name="lstChilds" type="System.Collections.ArrayList" val="" />
+            <item name="lstTables" type="System.Collections.ArrayList" val="System.String|H|Albaran;" />
+            <item name="txtModule" type="System.String" val="Invoice" />
+            <item name="txtPath" type="System.String" val="D:\Proyectos\GitRepo\moleQule.Invoice\code\WebFace\Models\Delivery" />
+          </items>
+        </obj>
+      </objects>
+    </module>
+    <module name="Factura" description="" defaultSettingsOverride="False" />
+    <module name="Proforma" description="" defaultSettingsOverride="False" />
+    <module name="Transaction" description="" defaultSettingsOverride="False">
+      <objects>
+        <obj name="TransactionViewModel" uid="06670ac4-ffa7-4a5c-84c1-ed80c0f0bc54" path="D:\Proyectos\VS Projects\moleQule\moleQule.MyGeneration\CSharp_mQWebFace_ViewModel.vbgen">
+          <items>
+            <item name="__dbConnectionString" type="System.String" val="Server=localhost;Port=5432;User Id=postgres;Password=TebaP2G_1998;Database=CATTLE" />
+            <item name="__dbDriver" type="System.String" val="POSTGRESQL" />
+            <item name="__dbLanguageMappingFileName" type="System.String" val="C:\Program Files\MyGeneration13\Settings\Languages.xml" />
+            <item name="__dbTarget" type="System.String" val="Npgsql" />
+            <item name="__dbTargetMappingFileName" type="System.String" val="C:\Program Files\MyGeneration13\Settings\DbTargets.xml" />
+            <item name="__defaultOutputPath" type="System.String" val="D:\Proyectos\VS Projects" />
+            <item name="__defaultTemplatePath" type="System.String" val="D:\Proyectos\VS Projects\moleQule\moleQule.MyGeneration" />
+            <item name="__domainOverride" type="System.Boolean" val="True" />
+            <item name="__language" type="System.String" val="C# (Npgsql)" />
+            <item name="__userMetaDataFileName" type="System.String" val="C:\Program Files\MyGeneration13\Settings\UserMetaData.xml" />
+            <item name="__version" type="System.String" val="1.3.0.3" />
+            <item name="btnPath" type="System.String" val="D:\Proyectos\VS Projects\IRYS\code\moleQule.Invoice\WebFace\Models\Payment" />
+            <item name="cmbDatabase" type="System.String" val="FACTO" />
+            <item name="dbConnectionString" type="System.Boolean" val="True" />
+            <item name="dbDriver" type="System.String" val="POSTGRESQL" />
+            <item name="defaultOutputPath" type="System.String" val="D:\Proyectos\VS Projects" />
+            <item name="defaultTemplatePath" type="System.String" val="D:\Proyectos\VS Projects\moleQule\moleQule.MyGeneration" />
+            <item name="lstChilds" type="System.Collections.ArrayList" val="" />
+            <item name="lstTables" type="System.Collections.ArrayList" val="System.String|H|IVTransaction;" />
+            <item name="txtNamespace" type="System.String" val="Invoice" />
+            <item name="txtPath" type="System.String" val="D:\Proyectos\VS Projects\IRYS\code\moleQule.Invoice\WebFace\Models\Payment" />
+          </items>
+        </obj>
+      </objects>
+    </module>
+  </modules>
+</project>

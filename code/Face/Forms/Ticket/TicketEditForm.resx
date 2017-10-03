@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Datos_Transportista.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>909, 17</value>
+  </metadata>
+  <metadata name="Datos_Serie.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>794, 17</value>
+  </metadata>
+  <metadata name="Datos_Concepto.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="Datos_MedioPago.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>306, 56</value>
+  </metadata>
+  <metadata name="Datos_Expediente.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>158, 56</value>
+  </metadata>
+  <metadata name="Datos_CobroFactura.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>632, 17</value>
+  </metadata>
+  <metadata name="HelpProvider.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>427, 17</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Impresion_GB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Impresion_GB.Name" xml:space="preserve">
+    <value>Impresion_GB</value>
+  </data>
+  <data name="&gt;&gt;Impresion_GB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Impresion_GB.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Impresion_GB.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="notaCheckBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;notaCheckBox.Name" xml:space="preserve">
+    <value>notaCheckBox</value>
+  </data>
+  <data name="&gt;&gt;notaCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;notaCheckBox.Parent" xml:space="preserve">
+    <value>Impresion_GB</value>
+  </data>
+  <data name="&gt;&gt;notaCheckBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Copia_CKB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Copia_CKB.Name" xml:space="preserve">
+    <value>Copia_CKB</value>
+  </data>
+  <data name="&gt;&gt;Copia_CKB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Copia_CKB.Parent" xml:space="preserve">
+    <value>Impresion_GB</value>
+  </data>
+  <data name="&gt;&gt;Copia_CKB.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Nota_TB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Nota_TB.Name" xml:space="preserve">
+    <value>Nota_TB</value>
+  </data>
+  <data name="&gt;&gt;Nota_TB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Nota_TB.Parent" xml:space="preserve">
+    <value>Impresion_GB</value>
+  </data>
+  <data name="&gt;&gt;Nota_TB.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="AlbaranContado_CB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;AlbaranContado_CB.Name" xml:space="preserve">
+    <value>AlbaranContado_CB</value>
+  </data>
+  <data name="&gt;&gt;AlbaranContado_CB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AlbaranContado_CB.Parent" xml:space="preserve">
+    <value>Impresion_GB</value>
+  </data>
+  <data name="&gt;&gt;AlbaranContado_CB.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="groupBox3.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="NFactura_TB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;NFactura_TB.Name" xml:space="preserve">
+    <value>NFactura_TB</value>
+  </data>
+  <data name="&gt;&gt;NFactura_TB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NFactura_TB.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;NFactura_TB.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="NombreSerie_CB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;NombreSerie_CB.Name" xml:space="preserve">
+    <value>NombreSerie_CB</value>
+  </data>
+  <data name="&gt;&gt;NombreSerie_CB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NombreSerie_CB.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;NombreSerie_CB.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Fecha_DTP.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Fecha_DTP.Name" xml:space="preserve">
+    <value>Fecha_DTP</value>
+  </data>
+  <data name="&gt;&gt;Fecha_DTP.Type" xml:space="preserve">
+    <value>moleQule.Face.Controls.mQDateTimePicker, moleQule.Face, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Fecha_DTP.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;Fecha_DTP.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="NumeroSerie_TB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;NumeroSerie_TB.Name" xml:space="preserve">
+    <value>NumeroSerie_TB</value>
+  </data>
+  <data name="&gt;&gt;NumeroSerie_TB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumeroSerie_TB.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;NumeroSerie_TB.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Transportista_CMB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Transportista_CMB.Name" xml:space="preserve">
+    <value>Transportista_CMB</value>
+  </data>
+  <data name="&gt;&gt;Transportista_CMB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Transportista_CMB.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;Transportista_CMB.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="MedioPago_CB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;MedioPago_CB.Name" xml:space="preserve">
+    <value>MedioPago_CB</value>
+  </data>
+  <data name="&gt;&gt;MedioPago_CB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MedioPago_CB.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;MedioPago_CB.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="NFacturaManual_CKB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;NFacturaManual_CKB.Name" xml:space="preserve">
+    <value>NFacturaManual_CKB</value>
+  </data>
+  <data name="&gt;&gt;NFacturaManual_CKB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NFacturaManual_CKB.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;NFacturaManual_CKB.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="FormaPago_CB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;FormaPago_CB.Name" xml:space="preserve">
+    <value>FormaPago_CB</value>
+  </data>
+  <data name="&gt;&gt;FormaPago_CB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FormaPago_CB.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;FormaPago_CB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DiasPago_NTB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;DiasPago_NTB.Name" xml:space="preserve">
+    <value>DiasPago_NTB</value>
+  </data>
+  <data name="&gt;&gt;DiasPago_NTB.Type" xml:space="preserve">
+    <value>moleQule.Face.Controls.NumericTextBox, moleQule.Face, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DiasPago_NTB.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;DiasPago_NTB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Prevision_TB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Prevision_TB.Name" xml:space="preserve">
+    <value>Prevision_TB</value>
+  </data>
+  <data name="&gt;&gt;Prevision_TB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Prevision_TB.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;Prevision_TB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DescuentoC_NTB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;DescuentoC_NTB.Name" xml:space="preserve">
+    <value>DescuentoC_NTB</value>
+  </data>
+  <data name="&gt;&gt;DescuentoC_NTB.Type" xml:space="preserve">
+    <value>moleQule.Face.Controls.NumericTextBox, moleQule.Face, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;DescuentoC_NTB.Parent" xml:space="preserve">
+    <value>Cliente_GB</value>
+  </data>
+  <data name="&gt;&gt;DescuentoC_NTB.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Cliente_GB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Cliente_GB.Name" xml:space="preserve">
+    <value>Cliente_GB</value>
+  </data>
+  <data name="&gt;&gt;Cliente_GB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cliente_GB.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Cliente_GB.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="textBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
+    <value>textBox2</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+    <value>Cliente_GB</value>
+  </data>
+  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>Cliente_GB</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Codigo_TB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Codigo_TB.Name" xml:space="preserve">
+    <value>Codigo_TB</value>
+  </data>
+  <data name="&gt;&gt;Codigo_TB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Codigo_TB.Parent" xml:space="preserve">
+    <value>Cliente_GB</value>
+  </data>
+  <data name="&gt;&gt;Codigo_TB.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="numeroClienteTextBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;numeroClienteTextBox.Name" xml:space="preserve">
+    <value>numeroClienteTextBox</value>
+  </data>
+  <data name="&gt;&gt;numeroClienteTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numeroClienteTextBox.Parent" xml:space="preserve">
+    <value>Cliente_GB</value>
+  </data>
+  <data name="&gt;&gt;numeroClienteTextBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="nombreTextBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;nombreTextBox.Name" xml:space="preserve">
+    <value>nombreTextBox</value>
+  </data>
+  <data name="&gt;&gt;nombreTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nombreTextBox.Parent" xml:space="preserve">
+    <value>Cliente_GB</value>
+  </data>
+  <data name="&gt;&gt;nombreTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="DiasPagoC_TB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;DiasPagoC_TB.Name" xml:space="preserve">
+    <value>DiasPagoC_TB</value>
+  </data>
+  <data name="&gt;&gt;DiasPagoC_TB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DiasPagoC_TB.Parent" xml:space="preserve">
+    <value>Cliente_GB</value>
+  </data>
+  <data name="&gt;&gt;DiasPagoC_TB.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Cliente_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Cliente_BT.Name" xml:space="preserve">
+    <value>Cliente_BT</value>
+  </data>
+  <data name="&gt;&gt;Cliente_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cliente_BT.Parent" xml:space="preserve">
+    <value>Cliente_GB</value>
+  </data>
+  <data name="&gt;&gt;Cliente_BT.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="FormaPagoC_TB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;FormaPagoC_TB.Name" xml:space="preserve">
+    <value>FormaPagoC_TB</value>
+  </data>
+  <data name="&gt;&gt;FormaPagoC_TB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FormaPagoC_TB.Parent" xml:space="preserve">
+    <value>Cliente_GB</value>
+  </data>
+  <data name="&gt;&gt;FormaPagoC_TB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MedioPagoC_TB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;MedioPagoC_TB.Name" xml:space="preserve">
+    <value>MedioPagoC_TB</value>
+  </data>
+  <data name="&gt;&gt;MedioPagoC_TB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MedioPagoC_TB.Parent" xml:space="preserve">
+    <value>Cliente_GB</value>
+  </data>
+  <data name="&gt;&gt;MedioPagoC_TB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label5.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>Impresion_GB</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="Datos_Cliente.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>167, 17</value>
+  </metadata>
+  <data name="PDescuento_NTB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;PDescuento_NTB.Name" xml:space="preserve">
+    <value>PDescuento_NTB</value>
+  </data>
+  <data name="&gt;&gt;PDescuento_NTB.Type" xml:space="preserve">
+    <value>moleQule.Face.Controls.NumericTextBox, moleQule.Face, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;PDescuento_NTB.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;PDescuento_NTB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Descuento_TB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Descuento_TB.Name" xml:space="preserve">
+    <value>Descuento_TB</value>
+  </data>
+  <data name="&gt;&gt;Descuento_TB.Type" xml:space="preserve">
+    <value>moleQule.Face.Controls.NumericTextBox, moleQule.Face, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Descuento_TB.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Descuento_TB.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="numericTextBox1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;numericTextBox1.Name" xml:space="preserve">
+    <value>numericTextBox1</value>
+  </data>
+  <data name="&gt;&gt;numericTextBox1.Type" xml:space="preserve">
+    <value>moleQule.Face.Controls.NumericTextBox, moleQule.Face, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numericTextBox1.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;numericTextBox1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Base_NTB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Base_NTB.Name" xml:space="preserve">
+    <value>Base_NTB</value>
+  </data>
+  <data name="&gt;&gt;Base_NTB.Type" xml:space="preserve">
+    <value>moleQule.Face.Controls.NumericTextBox, moleQule.Face, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Base_NTB.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Base_NTB.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Total_NTB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Total_NTB.Name" xml:space="preserve">
+    <value>Total_NTB</value>
+  </data>
+  <data name="&gt;&gt;Total_NTB.Type" xml:space="preserve">
+    <value>moleQule.Face.Controls.NumericTextBox, moleQule.Face, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Total_NTB.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Total_NTB.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="numericTextBox2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;numericTextBox2.Name" xml:space="preserve">
+    <value>numericTextBox2</value>
+  </data>
+  <data name="&gt;&gt;numericTextBox2.Type" xml:space="preserve">
+    <value>moleQule.Face.Controls.NumericTextBox, moleQule.Face, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numericTextBox2.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;numericTextBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="EliminarAlbaran_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;EliminarAlbaran_BT.Name" xml:space="preserve">
+    <value>EliminarAlbaran_BT</value>
+  </data>
+  <data name="&gt;&gt;EliminarAlbaran_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EliminarAlbaran_BT.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;EliminarAlbaran_BT.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="Datos_FormaPago.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="AddAlbaran_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;AddAlbaran_BT.Name" xml:space="preserve">
+    <value>AddAlbaran_BT</value>
+  </data>
+  <data name="&gt;&gt;AddAlbaran_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddAlbaran_BT.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;AddAlbaran_BT.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Rectificativa_CkB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Rectificativa_CkB.Name" xml:space="preserve">
+    <value>Rectificativa_CkB</value>
+  </data>
+  <data name="&gt;&gt;Rectificativa_CkB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Rectificativa_CkB.Parent" xml:space="preserve">
+    <value>Impresion_GB</value>
+  </data>
+  <data name="&gt;&gt;Rectificativa_CkB.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>Impresion_GB</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>Impresion_GB</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Obs_TB.Name" xml:space="preserve">
+    <value>Obs_TB</value>
+  </data>
+  <data name="&gt;&gt;Obs_TB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Obs_TB.Parent" xml:space="preserve">
+    <value>Impresion_GB</value>
+  </data>
+  <data name="&gt;&gt;Obs_TB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Cuenta_TB.Name" xml:space="preserve">
+    <value>Cuenta_TB</value>
+  </data>
+  <data name="&gt;&gt;Cuenta_TB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cuenta_TB.Parent" xml:space="preserve">
+    <value>Impresion_GB</value>
+  </data>
+  <data name="&gt;&gt;Cuenta_TB.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="PanelesV.Panel1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;PanelesV.Panel1.Name" xml:space="preserve">
+    <value>PanelesV.Panel1</value>
+  </data>
+  <data name="&gt;&gt;PanelesV.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelesV.Panel1.Parent" xml:space="preserve">
+    <value>PanelesV</value>
+  </data>
+  <data name="&gt;&gt;PanelesV.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PanelesV.Panel2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;PanelesV.Panel2.Name" xml:space="preserve">
+    <value>PanelesV.Panel2</value>
+  </data>
+  <data name="&gt;&gt;PanelesV.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelesV.Panel2.Parent" xml:space="preserve">
+    <value>PanelesV</value>
+  </data>
+  <data name="&gt;&gt;PanelesV.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PanelesV.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PanelesV.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1094, 233</value>
+  </data>
+  <data name="PanelesV.SplitterDistance" type="System.Int32, mscorlib">
+    <value>192</value>
+  </data>
+  <data name="&gt;&gt;PanelesV.Name" xml:space="preserve">
+    <value>PanelesV</value>
+  </data>
+  <data name="&gt;&gt;PanelesV.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelesV.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PanelesV.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Submit_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Submit_BT.Name" xml:space="preserve">
+    <value>Submit_BT</value>
+  </data>
+  <data name="&gt;&gt;Submit_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Submit_BT.Parent" xml:space="preserve">
+    <value>Paneles2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Submit_BT.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Cancel_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Cancel_BT.Name" xml:space="preserve">
+    <value>Cancel_BT</value>
+  </data>
+  <data name="&gt;&gt;Cancel_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancel_BT.Parent" xml:space="preserve">
+    <value>Paneles2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Cancel_BT.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Paneles2.Panel1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Paneles2.Panel1.Name" xml:space="preserve">
+    <value>Paneles2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Paneles2.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Paneles2.Panel1.Parent" xml:space="preserve">
+    <value>Paneles2</value>
+  </data>
+  <data name="&gt;&gt;Paneles2.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Paneles2.Panel2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Paneles2.Panel2.Name" xml:space="preserve">
+    <value>Paneles2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;Paneles2.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Paneles2.Panel2.Parent" xml:space="preserve">
+    <value>Paneles2</value>
+  </data>
+  <data name="&gt;&gt;Paneles2.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Paneles2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Paneles2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1092, 38</value>
+  </data>
+  <data name="&gt;&gt;Paneles2.Name" xml:space="preserve">
+    <value>Paneles2</value>
+  </data>
+  <data name="&gt;&gt;Paneles2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Paneles2.Parent" xml:space="preserve">
+    <value>PanelesV.Panel2</value>
+  </data>
+  <data name="&gt;&gt;Paneles2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Imprimir_Button.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Imprimir_Button.Text" xml:space="preserve">
+    <value>Aceptar e Imprimir</value>
+  </data>
+  <data name="&gt;&gt;Imprimir_Button.Name" xml:space="preserve">
+    <value>Imprimir_Button</value>
+  </data>
+  <data name="&gt;&gt;Imprimir_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Imprimir_Button.Parent" xml:space="preserve">
+    <value>Paneles2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Imprimir_Button.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Docs_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Docs_BT.Name" xml:space="preserve">
+    <value>Docs_BT</value>
+  </data>
+  <data name="&gt;&gt;Docs_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Docs_BT.Parent" xml:space="preserve">
+    <value>Paneles2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Docs_BT.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="Datos.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>549, 17</value>
+  </metadata>
+  <data name="ProgressBK_Panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 35</value>
+  </data>
+  <data name="&gt;&gt;ProgressBK_Panel.Name" xml:space="preserve">
+    <value>ProgressBK_Panel</value>
+  </data>
+  <data name="&gt;&gt;ProgressBK_Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProgressBK_Panel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProgressBK_Panel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Animation.Name" xml:space="preserve">
+    <value>Animation</value>
+  </data>
+  <data name="&gt;&gt;Animation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Animation.Parent" xml:space="preserve">
+    <value>ProgressBK_Panel</value>
+  </data>
+  <data name="&gt;&gt;Animation.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ProgressInfo_PB.Name" xml:space="preserve">
+    <value>ProgressInfo_PB</value>
+  </data>
+  <data name="&gt;&gt;ProgressInfo_PB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProgressInfo_PB.Parent" xml:space="preserve">
+    <value>ProgressBK_Panel</value>
+  </data>
+  <data name="&gt;&gt;ProgressInfo_PB.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;CancelBkJob_BT.Name" xml:space="preserve">
+    <value>CancelBkJob_BT</value>
+  </data>
+  <data name="&gt;&gt;CancelBkJob_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CancelBkJob_BT.Parent" xml:space="preserve">
+    <value>ProgressBK_Panel</value>
+  </data>
+  <data name="&gt;&gt;CancelBkJob_BT.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ProgressMsg_LB.Name" xml:space="preserve">
+    <value>ProgressMsg_LB</value>
+  </data>
+  <data name="&gt;&gt;ProgressMsg_LB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProgressMsg_LB.Parent" xml:space="preserve">
+    <value>ProgressBK_Panel</value>
+  </data>
+  <data name="&gt;&gt;ProgressMsg_LB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Title_LB.Name" xml:space="preserve">
+    <value>Title_LB</value>
+  </data>
+  <data name="&gt;&gt;Title_LB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Title_LB.Parent" xml:space="preserve">
+    <value>ProgressBK_Panel</value>
+  </data>
+  <data name="&gt;&gt;Title_LB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1094, 233</value>
+  </data>
+  <data name="$this.HelpKeyword" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>TopicId</value>
+  </data>
+  <data name="$this.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Modificar Factura</value>
+  </data>
+  <data name="&gt;&gt;Datos_Transportista.Name" xml:space="preserve">
+    <value>Datos_Transportista</value>
+  </data>
+  <data name="&gt;&gt;Datos_Transportista.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Datos_Serie.Name" xml:space="preserve">
+    <value>Datos_Serie</value>
+  </data>
+  <data name="&gt;&gt;Datos_Serie.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Datos_Concepto.Name" xml:space="preserve">
+    <value>Datos_Concepto</value>
+  </data>
+  <data name="&gt;&gt;Datos_Concepto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Datos_MedioPago.Name" xml:space="preserve">
+    <value>Datos_MedioPago</value>
+  </data>
+  <data name="&gt;&gt;Datos_MedioPago.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Datos_Expediente.Name" xml:space="preserve">
+    <value>Datos_Expediente</value>
+  </data>
+  <data name="&gt;&gt;Datos_Expediente.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Datos_CobroFactura.Name" xml:space="preserve">
+    <value>Datos_CobroFactura</value>
+  </data>
+  <data name="&gt;&gt;Datos_CobroFactura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Datos_Cliente.Name" xml:space="preserve">
+    <value>Datos_Cliente</value>
+  </data>
+  <data name="&gt;&gt;Datos_Cliente.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Datos_FormaPago.Name" xml:space="preserve">
+    <value>Datos_FormaPago</value>
+  </data>
+  <data name="&gt;&gt;Datos_FormaPago.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Datos.Name" xml:space="preserve">
+    <value>Datos</value>
+  </data>
+  <data name="&gt;&gt;Datos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpProvider.Name" xml:space="preserve">
+    <value>HelpProvider</value>
+  </data>
+  <data name="&gt;&gt;HelpProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.HelpProvider, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FacturaEditForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>moleQule.Face.Invoice.FacturaUIForm, moleQule.Face.Invoice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

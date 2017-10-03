@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ECobro_Cobrado" xml:space="preserve">
+    <value>Cobrado</value>
+  </data>
+  <data name="ECobro_Pendiente" xml:space="preserve">
+    <value>Pendiente</value>
+  </data>
+  <data name="ECobro_Todos" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="EEstadoMovimientoBanco_Abonado" xml:space="preserve">
+    <value>Abonado</value>
+  </data>
+  <data name="EEstadoMovimientoBanco_EfectoDevuelto" xml:space="preserve">
+    <value>Efectos Devueltos</value>
+  </data>
+  <data name="EEstadoMovimientoBanco_EfectoNegociado" xml:space="preserve">
+    <value>Efectos Negociados</value>
+  </data>
+  <data name="EEstadoMovimientoBanco_EfectoPendienteVto" xml:space="preserve">
+    <value>Efectos Pendientes de Vencimiento</value>
+  </data>
+  <data name="EEstadoMovimientoBanco_Todos" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="EFormaPago_Contado" xml:space="preserve">
+    <value>Contado</value>
+  </data>
+  <data name="EFormaPago_XDiasFechaFactura" xml:space="preserve">
+    <value>X Días Fecha de Factura</value>
+  </data>
+  <data name="EFormaPago_XDiasMes" xml:space="preserve">
+    <value>X Días Mes Siguiente</value>
+  </data>
+  <data name="EMPTY_VALUE" xml:space="preserve">
+    <value>Seleccione una opción</value>
+  </data>
+  <data name="ETipoAcreedor_Despachante" xml:space="preserve">
+    <value>Despachante</value>
+  </data>
+  <data name="ETipoAcreedor_Instructor" xml:space="preserve">
+    <value>Instructor</value>
+  </data>
+  <data name="ETipoAcreedor_Naviera" xml:space="preserve">
+    <value>Naviera</value>
+  </data>
+  <data name="ETipoAcreedor_Proveedor" xml:space="preserve">
+    <value>Proveedor</value>
+  </data>
+  <data name="ETipoAcreedor_Todos" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="ETipoAcreedor_TransportistaDestino" xml:space="preserve">
+    <value>Transportisa en Destino</value>
+  </data>
+  <data name="ETipoAcreedor_TransportistaOrigen" xml:space="preserve">
+    <value>Transportista en Origen</value>
+  </data>
+  <data name="ETipoCobro_Cliente" xml:space="preserve">
+    <value>A Cliente</value>
+  </data>
+  <data name="ETipoCobro_PRINT_Cliente" xml:space="preserve">
+    <value>CLI</value>
+  </data>
+  <data name="ETipoCobro_PRINT_REA" xml:space="preserve">
+    <value>REA</value>
+  </data>
+  <data name="ETipoCobro_REA" xml:space="preserve">
+    <value>REA/POSEI</value>
+  </data>
+  <data name="EBankLineType_Cobro" xml:space="preserve">
+    <value>Cobro</value>
+  </data>
+  <data name="EBankLineType_EntradaCaja" xml:space="preserve">
+    <value>Entrada en Caja</value>
+  </data>
+  <data name="EBankLineType_PagoFactura" xml:space="preserve">
+    <value>Pago de Factura</value>
+  </data>
+  <data name="EBankLineType_PRINT_Cobro" xml:space="preserve">
+    <value>COB</value>
+  </data>
+  <data name="EBankLineType_PRINT_EntradaCaja" xml:space="preserve">
+    <value>ENC</value>
+  </data>
+  <data name="EBankLineType_PRINT_Pago" xml:space="preserve">
+    <value>PAG</value>
+  </data>
+  <data name="ETipoMovimientoBanco_PRINT_SalidaCaja" xml:space="preserve">
+    <value>SAC</value>
+  </data>
+  <data name="ETipoMovimientoBanco_PRINT_Todos" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="ETipoMovimientoBanco_SalidaCaja" xml:space="preserve">
+    <value>Salida de Caja</value>
+  </data>
+  <data name="ETipoMovimientoBanco_Todos" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="ETipoSerie_ALIMENTACION" xml:space="preserve">
+    <value>ALIMENTACIÓN</value>
+  </data>
+  <data name="ETipoSerie_FORMACION" xml:space="preserve">
+    <value>FORMACIÓN</value>
+  </data>
+  <data name="ETipoSerie_GANADO" xml:space="preserve">
+    <value>GANADO</value>
+  </data>
+  <data name="ETipoSerie_GENERICA" xml:space="preserve">
+    <value>GENÉRICA</value>
+  </data>
+  <data name="ETipoSerie_MAQUINARIA" xml:space="preserve">
+    <value>MAQUINARIA</value>
+  </data>
+  <data name="EBankLineType_PagoGasto" xml:space="preserve">
+    <value>Pago de Gasto</value>
+  </data>
+  <data name="EBankLineType_PagoNomina" xml:space="preserve">
+    <value>Pago de Nómina</value>
+  </data>
+  <data name="EBankLineType_PRINT_Gasto" xml:space="preserve">
+    <value>GAS</value>
+  </data>
+  <data name="EBankLineType_PRINT_Nomina" xml:space="preserve">
+    <value>NOM</value>
+  </data>
+  <data name="ETipoLineaCaja_EntradaPorCobro" xml:space="preserve">
+    <value>Entrada por Cobro</value>
+  </data>
+  <data name="ETipoLineaCaja_EntradaPorTraspaso" xml:space="preserve">
+    <value>Entrada por Traspaso</value>
+  </data>
+  <data name="ETipoLineaCaja_Otros" xml:space="preserve">
+    <value>Otros</value>
+  </data>
+  <data name="ETipoLineaCaja_SalidaPorIngreso" xml:space="preserve">
+    <value>Salida por Ingreso</value>
+  </data>
+  <data name="ETipoLineaCaja_SalidaPorPago" xml:space="preserve">
+    <value>Salida por Pago</value>
+  </data>
+  <data name="ETipoLineaCaja_Todos" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="ETipoMovimientoBanco_PRINT_Traspaso" xml:space="preserve">
+    <value>TRF</value>
+  </data>
+  <data name="ETipoMovimientoBanco_Traspaso" xml:space="preserve">
+    <value>Traspaso de Fondos</value>
+  </data>
+  <data name="EBankLineType_Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="EBankLineType_PRINT_Manual" xml:space="preserve">
+    <value>MAN</value>
+  </data>
+  <data name="ETipoMovimientoBanco_PRINT_Ticket" xml:space="preserve">
+    <value>TCK</value>
+  </data>
+  <data name="ETipoMovimientoBanco_Ticket" xml:space="preserve">
+    <value>Ticket de Venta</value>
+  </data>
+  <data name="ETipoLineaCaja_EntradaPorTicket" xml:space="preserve">
+    <value>Entrada por Ticket</value>
+  </data>
+  <data name="EBankLineType_ExtractoTarjeta" xml:space="preserve">
+    <value>Extracto Tarjeta Crédito</value>
+  </data>
+  <data name="EBankLineType_PRINT_ExtractoTarjeta" xml:space="preserve">
+    <value>TCR</value>
+  </data>
+  <data name="ETipoCobro_Todos" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="EBankLineType_Prestamo" xml:space="preserve">
+    <value>Préstamo</value>
+  </data>
+  <data name="ETipoMovimientoBanco_PRINT_Prestamo" xml:space="preserve">
+    <value>PRE</value>
+  </data>
+  <data name="ETipoAyudaContabilidad_POSEI" xml:space="preserve">
+    <value>POSEI</value>
+  </data>
+  <data name="ETipoAyudaContabilidad_REA" xml:space="preserve">
+    <value>REA</value>
+  </data>
+  <data name="ETipoAyudaContabilidad_Todas" xml:space="preserve">
+    <value>Todas</value>
+  </data>
+  <data name="EBankLineType_PagoPrestamo" xml:space="preserve">
+    <value>Pago de Préstamo</value>
+  </data>
+  <data name="ETipoMovimientoBanco_PRINT_PagoPrestamos" xml:space="preserve">
+    <value>PGPRE</value>
+  </data>
+  <data name="EBankLineType_CancelacionComercioExterior" xml:space="preserve">
+    <value>Cancelación de Comercio Exterior</value>
+  </data>
+  <data name="EBankLineType_PRINT_CancelacionComercioExterior" xml:space="preserve">
+    <value>CCE</value>
+  </data>
+  <data name="ETipoApunteBancario_Mixto" xml:space="preserve">
+    <value>Mixto</value>
+  </data>
+  <data name="ETipoApunteBancario_Multiple" xml:space="preserve">
+    <value>Múltiple</value>
+  </data>
+  <data name="ETipoApunteBancario_Sencillo" xml:space="preserve">
+    <value>Sencillo</value>
+  </data>
+  <data name="EBankLineType_ComisionEstudioApertura" xml:space="preserve">
+    <value>Comisión de Estudio y Apertura</value>
+  </data>
+  <data name="EBankLineType_PRINT_ComisionEstudioApertura" xml:space="preserve">
+    <value>CEA</value>
+  </data>
+  <data name="ETipoCobro_Fomento" xml:space="preserve">
+    <value>Fomento</value>
+  </data>
+  <data name="ETipoCobro_PRINT_Fomento" xml:space="preserve">
+    <value>FOM</value>
+  </data>
+  <data name="EPaymentGateway_PayPal" xml:space="preserve">
+    <value>PayPal</value>
+  </data>
+  <data name="EPaymentGateway_TefPay" xml:space="preserve">
+    <value>TefPay</value>
+  </data>
+  <data name="EPaymentGateway_All" xml:space="preserve">
+    <value>Todas</value>
+  </data>
+  <data name="ETransactionType_Authentication" xml:space="preserve">
+    <value>Autenticación</value>
+  </data>
+  <data name="ETransactionType_PreauthCancelation" xml:space="preserve">
+    <value>Cancelación</value>
+  </data>
+  <data name="ETransactionType_PreauthCharge" xml:space="preserve">
+    <value>Cargo</value>
+  </data>
+  <data name="ETransactionType_Preauthorization" xml:space="preserve">
+    <value>Preautorización</value>
+  </data>
+  <data name="ETransactionType_All" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="EBankLineType_Interes" xml:space="preserve">
+    <value>Interés</value>
+  </data>
+  <data name="EBankLineType_PRINT_Interes" xml:space="preserve">
+    <value>INT</value>
+  </data>
+  <data name="EBankLineType_CobroEfecto" xml:space="preserve">
+    <value>Cobro de Efecto</value>
+  </data>
+  <data name="EBankLineType_PRINT_CobroEfecto" xml:space="preserve">
+    <value>CEF</value>
+  </data>
+  <data name="EBankLineType_PagoGastosAdelantoEfecto" xml:space="preserve">
+    <value>Gastos de Adelanto de Efecto</value>
+  </data>
+  <data name="EBankLineType_PagoGastosDevolucionEfecto" xml:space="preserve">
+    <value>Gastos de Devolución de Efecto</value>
+  </data>
+  <data name="EBankLineType_PagoGastosEfecto" xml:space="preserve">
+    <value>Gastos Bancarios de Efecto</value>
+  </data>
+  <data name="EBankLineType_PRINT_PagoGastosAdelantoEfecto" xml:space="preserve">
+    <value>GAE</value>
+  </data>
+  <data name="EBankLineType_PRINT_PagoGastosDevolucionEfecto" xml:space="preserve">
+    <value>GDE</value>
+  </data>
+  <data name="EBankLineType_PRINT_PagoGastosEfecto" xml:space="preserve">
+    <value>GEF</value>
+  </data>
+  <data name="ETipoLineaCaja_EntradaPorTarjetaCredito" xml:space="preserve">
+    <value>Entrada por tarjeta de crédito</value>
+  </data>
+  <data name="ELoanType_All" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="ELoanType_Bank" xml:space="preserve">
+    <value>Genérico</value>
+  </data>
+  <data name="ELoanType_Merchant" xml:space="preserve">
+    <value>Comercio Exterior</value>
+  </data>
+</root>

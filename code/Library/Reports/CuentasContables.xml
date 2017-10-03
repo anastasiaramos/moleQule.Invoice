@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+<xs:schema id="ResumenCuentasContablesInfoDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+<xs:element name="ResumenCuentasContablesInfoDataSet" msdata:IsDataSet="true"
+msdata:MainDataTable="ResumenCuentasContablesInfo" msdata:UseCurrentLocale="true">
+<xs:complexType>
+<xs:choice minOccurs="0" maxOccurs="unbounded">
+<xs:element name="ResumenCuentasContablesInfo">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="Nombre" type="xs:string" minOccurs="0" />
+<xs:element name="Entidad" type="xs:string" minOccurs="0" />
+<xs:element name="Codigo" type="xs:string" minOccurs="0" />
+<xs:element name="CuentaContable" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:choice>
+</xs:complexType>
+</xs:element>
+</xs:schema>
+</NewDataSet>

@@ -1,0 +1,2573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PanelesV.Error" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PanelesV.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PanelesV.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="PanelesV.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PanelesV.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PanelesV.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PanelesV.Panel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelesV.Panel1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PanelesV.Panel1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="PanelesV.Panel1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PanelesV.Panel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="PanelesV.Panel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PanelesV.Panel2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelesV.Panel2.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PanelesV.Panel2.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="PanelesV.Panel2.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PanelesV.Panel2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="PanelesV.Panel2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Submit_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Submit_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Submit_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Submit_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Submit_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Submit_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Cancel_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Cancel_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Cancel_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Cancel_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Cancel_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Cancel_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Pie_Panel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Pie_Panel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Pie_Panel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Pie_Panel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Pie_Panel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Pie_Panel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="SubmitPrint_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SubmitPrint_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="SubmitPrint_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="SubmitPrint_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="SubmitPrint_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="SubmitPrint_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="SubmitPrint_BT.Text" xml:space="preserve">
+    <value>&amp;Print</value>
+  </data>
+  <data name="Pie_Panel.Panel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Pie_Panel.Panel1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Pie_Panel.Panel1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Pie_Panel.Panel1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Pie_Panel.Panel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Pie_Panel.Panel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Pie_Panel.Panel2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Pie_Panel.Panel2.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Pie_Panel.Panel2.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Pie_Panel.Panel2.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Pie_Panel.Panel2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Pie_Panel.Panel2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Content_Panel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Content_Panel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Content_Panel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Content_Panel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Content_Panel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Content_Panel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Content_Panel.Panel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Content_Panel.Panel1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Content_Panel.Panel1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Content_Panel.Panel1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Content_Panel.Panel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Content_Panel.Panel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Main_Panel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Main_Panel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Main_Panel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Main_Panel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Main_Panel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Main_Panel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label11.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label11.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label11.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label11.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label11.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label11.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PDescuento_NTB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PDescuento_NTB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PDescuento_NTB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="PDescuento_NTB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PDescuento_NTB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="PDescuento_NTB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label10.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label10.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label10.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label10.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label10.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label10.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>% Discount:</value>
+  </data>
+  <data name="numericTextBox2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericTextBox2.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="numericTextBox2.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="numericTextBox2.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="numericTextBox2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="numericTextBox2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label9.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label9.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label9.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label9.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label9.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Discount:</value>
+  </data>
+  <data name="Descuento_TB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Descuento_TB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Descuento_TB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Descuento_TB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Descuento_TB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Descuento_TB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label8.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label8.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label8.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label8.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label8.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Taxes:</value>
+  </data>
+  <data name="numericTextBox1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericTextBox1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="numericTextBox1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="numericTextBox1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="numericTextBox1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="numericTextBox1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="baseImponibleLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="baseImponibleLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="baseImponibleLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="baseImponibleLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="baseImponibleLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="baseImponibleLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="baseImponibleLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="baseImponibleLabel.Text" xml:space="preserve">
+    <value>Tax Base:</value>
+  </data>
+  <data name="Base_NTB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Base_NTB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Base_NTB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Base_NTB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Base_NTB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Base_NTB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="totalLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="totalLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="totalLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="totalLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="totalLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="totalLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Total_NTB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Total_NTB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Total_NTB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Total_NTB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Total_NTB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Total_NTB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label19.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label19.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label19.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label19.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label19.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label19.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Invoice No:</value>
+  </data>
+  <data name="Factura_TB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Factura_TB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Factura_TB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Factura_TB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Factura_TB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Factura_TB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="notaCheckBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="notaCheckBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="notaCheckBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="notaCheckBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="notaCheckBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="notaCheckBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="notaCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 17</value>
+  </data>
+  <data name="notaCheckBox.Text" xml:space="preserve">
+    <value>Show Note</value>
+  </data>
+  <data name="Nota_TB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Nota_TB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Nota_TB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Nota_TB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Nota_TB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Nota_TB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Prevision_TB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Prevision_TB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Prevision_TB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Prevision_TB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Prevision_TB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Prevision_TB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="DiasPago_NTB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DiasPago_NTB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="DiasPago_NTB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="DiasPago_NTB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="DiasPago_NTB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="DiasPago_NTB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="previsionLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="previsionLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="previsionLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="previsionLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="previsionLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="previsionLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="previsionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="previsionLabel.Text" xml:space="preserve">
+    <value>Due Date:</value>
+  </data>
+  <data name="label12.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label12.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label12.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label12.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label12.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label12.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Payment Way</value>
+  </data>
+  <data name="label13.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label13.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label13.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label13.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label13.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label13.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Payday</value>
+  </data>
+  <data name="FormaPago_CB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FormaPago_CB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="FormaPago_CB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="FormaPago_CB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="FormaPago_CB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="FormaPago_CB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="MedioPago_CB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MedioPago_CB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="MedioPago_CB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="MedioPago_CB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="MedioPago_CB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="MedioPago_CB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label6.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label6.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Payment Method</value>
+  </data>
+  <data name="Impresion_GB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Impresion_GB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Impresion_GB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Impresion_GB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Impresion_GB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Impresion_GB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Impresion_GB.Text" xml:space="preserve">
+    <value>Extra Data</value>
+  </data>
+  <data name="NoAlbaran_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NoAlbaran_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="NoAlbaran_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="NoAlbaran_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="NoAlbaran_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="NoAlbaran_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NoExpediente_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NoExpediente_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="NoExpediente_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="NoExpediente_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="NoExpediente_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="NoExpediente_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Expediente_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Expediente_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Expediente_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Expediente_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Expediente_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Expediente_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Expedient:</value>
+  </data>
+  <data name="Contado_CB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Contado_CB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Contado_CB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Contado_CB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Contado_CB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Contado_CB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Contado_CB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 17</value>
+  </data>
+  <data name="Contado_CB.Text" xml:space="preserve">
+    <value>Grouped</value>
+  </data>
+  <data name="Expediente_TB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Expediente_TB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Expediente_TB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Expediente_TB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Expediente_TB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Expediente_TB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Almacen_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Almacen_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Almacen_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Almacen_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Almacen_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Almacen_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label5.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label5.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Store:</value>
+  </data>
+  <data name="Almacen_TB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Almacen_TB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Almacen_TB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Almacen_TB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Almacen_TB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Almacen_TB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Serie_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Serie_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Serie_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Serie_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Serie_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Serie_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Serie_TB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Serie_TB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Serie_TB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Serie_TB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Serie_TB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Serie_TB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label14.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label14.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label14.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label14.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label14.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label14.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Series:</value>
+  </data>
+  <data name="Usuario_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Usuario_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Usuario_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Usuario_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Usuario_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Usuario_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label15.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label15.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label15.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label15.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label15.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label15.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>User:</value>
+  </data>
+  <data name="Usuario_TB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Usuario_TB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Usuario_TB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Usuario_TB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Usuario_TB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Usuario_TB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Fecha_DTP.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Fecha_DTP.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Fecha_DTP.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Fecha_DTP.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Fecha_DTP.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Fecha_DTP.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Transportista_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Transportista_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Transportista_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Transportista_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Transportista_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Transportista_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Rectificativo_CKB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Rectificativo_CKB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Rectificativo_CKB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Rectificativo_CKB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Rectificativo_CKB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Rectificativo_CKB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Rectificativo_CKB.Text" xml:space="preserve">
+    <value>Rectification</value>
+  </data>
+  <data name="Transportista_TB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Transportista_TB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Transportista_TB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Transportista_TB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Transportista_TB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Transportista_TB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label3.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label3.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Transporter:</value>
+  </data>
+  <data name="IDManual_CKB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="IDManual_CKB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="IDManual_CKB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="IDManual_CKB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="IDManual_CKB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IDManual_CKB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="IDManual_CKB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 17</value>
+  </data>
+  <data name="IDManual_CKB.Text" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="label2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label2.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label2.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Delivery No:</value>
+  </data>
+  <data name="fechaLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fechaLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="fechaLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="fechaLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="fechaLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="fechaLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="fechaLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="fechaLabel.Text" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="NAlbaran_TB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NAlbaran_TB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="NAlbaran_TB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="NAlbaran_TB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="NAlbaran_TB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="NAlbaran_TB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Generales_GB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Generales_GB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Generales_GB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Generales_GB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Generales_GB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Generales_GB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Generales_GB.Text" xml:space="preserve">
+    <value>Delivery Data</value>
+  </data>
+  <data name="textBox1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="textBox1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="textBox1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="textBox1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="textBox1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label4.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label4.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Taxes:</value>
+  </data>
+  <data name="label7.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label7.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label7.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label7.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label7.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label7.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Payment Method:</value>
+  </data>
+  <data name="MedioPagoC_TB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MedioPagoC_TB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="MedioPagoC_TB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="MedioPagoC_TB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="MedioPagoC_TB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="MedioPagoC_TB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="formaPagoLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="formaPagoLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="formaPagoLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="formaPagoLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="formaPagoLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="formaPagoLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="formaPagoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="formaPagoLabel.Text" xml:space="preserve">
+    <value>Payment Way:</value>
+  </data>
+  <data name="FormaPagoC_TB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FormaPagoC_TB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="FormaPagoC_TB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="FormaPagoC_TB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="FormaPagoC_TB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="FormaPagoC_TB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Cliente_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Cliente_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Cliente_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Cliente_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Cliente_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Cliente_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="diasPagoLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="diasPagoLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="diasPagoLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="diasPagoLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="diasPagoLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="diasPagoLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="diasPagoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="diasPagoLabel.Text" xml:space="preserve">
+    <value>Payday:</value>
+  </data>
+  <data name="DiasPagoC_TB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DiasPagoC_TB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="DiasPagoC_TB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="DiasPagoC_TB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="DiasPagoC_TB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="DiasPagoC_TB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="numeroClienteLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numeroClienteLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="numeroClienteLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="numeroClienteLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="numeroClienteLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="numeroClienteLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="numeroClienteLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="numeroClienteLabel.Text" xml:space="preserve">
+    <value>Client No:</value>
+  </data>
+  <data name="nombreTextBox.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nombreTextBox.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="nombreTextBox.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="nombreTextBox.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="nombreTextBox.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="nombreTextBox.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="IDCliente_TB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="IDCliente_TB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="IDCliente_TB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="IDCliente_TB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="IDCliente_TB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IDCliente_TB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="VatNumber_TB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VatNumber_TB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="VatNumber_TB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="VatNumber_TB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="VatNumber_TB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="VatNumber_TB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="codigoLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="codigoLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="codigoLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="codigoLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="codigoLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="codigoLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="codigoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="codigoLabel.Text" xml:space="preserve">
+    <value>VAT No:</value>
+  </data>
+  <data name="nombreLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nombreLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="nombreLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="nombreLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="nombreLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="nombreLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="nombreLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="nombreLabel.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="DescuentoC_NTB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DescuentoC_NTB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="DescuentoC_NTB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="DescuentoC_NTB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="DescuentoC_NTB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="DescuentoC_NTB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pDescuentoLabel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pDescuentoLabel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pDescuentoLabel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="pDescuentoLabel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pDescuentoLabel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pDescuentoLabel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pDescuentoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="pDescuentoLabel.Text" xml:space="preserve">
+    <value>Dis. (%):</value>
+  </data>
+  <data name="Cliente_GB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Cliente_GB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Cliente_GB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Cliente_GB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Cliente_GB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Cliente_GB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Cliente_GB.Text" xml:space="preserve">
+    <value>Client Data</value>
+  </data>
+  <data name="Main_Panel.Panel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Main_Panel.Panel1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Main_Panel.Panel1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Main_Panel.Panel1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Main_Panel.Panel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Main_Panel.Panel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Conceptos_Panel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Conceptos_Panel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Conceptos_Panel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Conceptos_Panel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Conceptos_Panel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Conceptos_Panel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Conceptos_TS.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Conceptos_TS.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Conceptos_TS.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Conceptos_TS.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Conceptos_TS.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Conceptos_TS.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="View_TI.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Delete_TI.Text" xml:space="preserve">
+    <value>Delete Line</value>
+  </data>
+  <data name="Conceptos_Panel.Panel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Conceptos_Panel.Panel1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Conceptos_Panel.Panel1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Conceptos_Panel.Panel1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Conceptos_Panel.Panel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Conceptos_Panel.Panel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CodigoProductoCliente.HeaderText" xml:space="preserve">
+    <value>Product ID</value>
+  </data>
+  <data name="ConceptosConcepto.HeaderText" xml:space="preserve">
+    <value>Concept</value>
+  </data>
+  <data name="Almacen.HeaderText" xml:space="preserve">
+    <value>Sto. ID</value>
+  </data>
+  <data name="Expediente.HeaderText" xml:space="preserve">
+    <value>Expedient</value>
+  </data>
+  <data name="FacturacionPeso.HeaderText" xml:space="preserve">
+    <value>By Weight</value>
+  </data>
+  <data name="ConceptosCantidadBultos.HeaderText" xml:space="preserve">
+    <value>Units</value>
+  </data>
+  <data name="Precio.HeaderText" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="PDescuento.HeaderText" xml:space="preserve">
+    <value>% Dis.</value>
+  </data>
+  <data name="Descuento.HeaderText" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="PImpuestos.HeaderText" xml:space="preserve">
+    <value>% Tax</value>
+  </data>
+  <data name="Impuestos.HeaderText" xml:space="preserve">
+    <value>Taxes</value>
+  </data>
+  <data name="Lineas_DGW.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lineas_DGW.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Lineas_DGW.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Lineas_DGW.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Lineas_DGW.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Lineas_DGW.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Conceptos_Panel.Panel2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Conceptos_Panel.Panel2.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Conceptos_Panel.Panel2.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Conceptos_Panel.Panel2.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Conceptos_Panel.Panel2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Conceptos_Panel.Panel2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Main_Panel.Panel2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Main_Panel.Panel2.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Main_Panel.Panel2.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Main_Panel.Panel2.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Main_Panel.Panel2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Main_Panel.Panel2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Content_Panel.Panel2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Content_Panel.Panel2.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Content_Panel.Panel2.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Content_Panel.Panel2.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Content_Panel.Panel2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Content_Panel.Panel2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Animation.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Animation.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Animation.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Animation.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Animation.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Animation.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Animation.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CancelBkJob_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CancelBkJob_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="CancelBkJob_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="CancelBkJob_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="CancelBkJob_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="CancelBkJob_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CancelBkJob_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ProgressMsg_LB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ProgressMsg_LB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ProgressMsg_LB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="ProgressMsg_LB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ProgressMsg_LB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ProgressMsg_LB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ProgressMsg_LB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Title_LB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Title_LB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Title_LB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Title_LB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Title_LB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Title_LB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Title_LB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Progress_Panel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Progress_Panel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Progress_Panel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Progress_Panel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Progress_Panel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Progress_Panel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Progress_Panel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ProgressBK_Panel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ProgressBK_Panel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ProgressBK_Panel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="ProgressBK_Panel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ProgressBK_Panel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ProgressBK_Panel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ProgressBK_Panel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ProgressInfo_PB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ProgressInfo_PB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ProgressInfo_PB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="ProgressInfo_PB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ProgressInfo_PB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ProgressInfo_PB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ProgressInfo_PB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Progress_PB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Progress_PB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Progress_PB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Progress_PB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Progress_PB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Progress_PB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Progress_PB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAsAICAQAAEABADoAgAAtgAAABgYEAABAAQA6AEAAJ4DAAAQEBAAAQAEACgBAACGBQAAMDAAAAEA
+        CACoDgAArgYAACAgAAABAAgAqAgAAFYVAAAYGAAAAQAIAMgGAAD+HQAAEBAAAAEACABoBQAAxiQAADAw
+        AAABACAAqCUAAC4qAAAgIAAAAQAgAKgQAADWTwAAGBgAAAEAIACICQAAfmAAABAQAAABACAAaAQAAAZq
+        AAAoAAAAIAAAAEAAAAABAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAA
+        AACAAIAAgIAAAICAgADAwMAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAAAAAAAAAAAAA
+        AAAAAAiI6I6I6I6OjojoYAAAAAAOiIiIiIiIiIiIiIAAAAAACPj4iI+IiPiPiIiAAAAAAAj4+P+P/4+P
+        j4+IgAAAAAAI///4/4j/j4+I+IAAAAAACI+P+P//j/j///iAAAAAAAj/+Pj4+P+Pj4iI4AAAAAAIj///
+        //j4/4//+IAAAAAACP//j4+P//j4+PiAAAAAAAj4/////4//+P/4gAAAAAAI///////4+P+PiOAAAAAA
+        CP////////+P//iAAAAAAAj///////+P/4+IgAAAAAAI//////////j/+IAAAAAACP////////j//4iA
+        AAAAAAj/////////+P/4gAAAAAAI////////+P//iIAAAAAACP/////////4//iAAAAAAAj/////////
+        ///4gAAAAAAI/4j/////+PiIiHAAAAAACP+Ij/////eOeGcAAAAAAAj4d3cm//+I/4hwAAAAAAAI+HKj
+        I3//94jnAAAAAAAACPhzqiMnj4iIcAAAAAAAAAj/eqoyMjj3jgAAAAAAAAAI/4q6qqMi93AAAAAAAAAA
+        CP96qqMyo4cAAAAAAAAAAAh4d6eqoyeAAAAAAAAAAAAAAAAAo6OgAAAAAAAAAAAAAAAAAAqnAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA//////gAAB/4AAAf+AAAH/gAAB/4AAAf+AAAH/gAAB/4AAAf+AAAH/gA
+        AB/4AAAf+AAAH/gAAB/4AAAf+AAAH/gAAB/4AAAf+AAAH/gAAB/4AAAf+AAAP/gAAH/4AAD/+AAB//gA
+        A//4AAf/+AAP//gAH///8H////j///////8oAAAAGAAAADAAAAABAAQAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAICAgADAwMAAAAD/AAD/AAAA//8A/wAAAP8A
+        /wD//wAA////AAAAiOiI6I6IjogAAAAIiIiIiIiIiIiAAAAOj4iI+IiIiIiAAAAI/4/4+P+Pj4iAAAAI
+        j4//j4/4+PiAAAAI//+P//j4+PiAAAAIj/j4+Pj/j/iAAAAI///////4/4jgAAAI+P//+Pj/j/iAAAAI
+        ///4////j4iAAAAH//////j///iAAAAI///////4/4iAAAAI////////j/iAAAAI/////////4iAAAAI
+        //////////iAAAAI/4j///+IiIcAAAAI/3iIj/+IiHAAAAAI+HIyP/94jgAAAAAI+Io6J4+IcAAAAAAI
+        /6qqMyiHAAAAAAAI/3c6KihwAAAAAAAAiIqqoygAAAAAAAAAAAAHqoAAAAAAAAAAAAAAgAAAAAAAAPAA
+        D//gAAf/4AAH/+AAB//gAAf/4AAH/+AAB//gAAf/4AAH/+AAB//gAAf/4AAH/+AAB//gAAf/4AAH/+AA
+        D//gAB//4AA//+AAf//gAP//4AH///AD////h////9///ygAAAAQAAAAIAAAAAEABAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD/
+        /wD/AAAA/wD/AP//AAD///8AAAiIiIiIgAAAj4iIiIiIAACI//j4/4gAAI/4+P+PiAAAj/+P+P+IAACP
+        ////+PgAAI////j/iAAAj/////+IAACP///4//gAAI//////iAAAj4///4iAAACPcz/4jgAAAI96IoiA
+        AAAAj6qjOAAAAAAAB6pwAAAAAAAACAAAAADgB///wAP//8AD///AA///wAP//8AD///AA///wAP//8AD
+        ///AA///wAf//8AP///AH///wD////h////+////KAAAADAAAABgAAAAAQAIAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAABeScAAXwoAAJ7LQAJdzMACngzADZRWQAceEgAK3xSAEtJSABOTk4AdVVGAHhW
+        RgB6WEcAeldIAHxaSQBaX2AAVGZkAHFwbgB0dHQAgV1LAIhfTACFYE4Ai2JOAINgUACGYVAAiGNTAI1i
+        UACPZFEAiWVXAI9oVgCIZlkAiGhbAIlqXQCRZlEAlGlTAJZpVQCXblUAmGpUAJhsVQCZblkAmnBcAKZ+
+        WgCie10AjmdmAItrYACNbGEAj3NmAJNyZACadGQAk3VoAKN8YwCkf2gAAYIpAAGJLAABji0AAZsvAAib
+        LAABlTAAHZs3ABOdOAABpiYAAaEuAAGlLAABqyoAAaosAAGuLAACvScAArYrAAKyLAACuisAAr0qAALv
+        HwAExycAAsIpAALGKAACySkAAs8oAALSJgAH0CcAAtQmAALYJwAC3iUAAtUqAA/ZLQASwDEAHME3AALh
+        IgAC5yMABOYkAALqIwAC7SAACeskAAvvJgAP5ygAAvAhAAf0IwAM9CYAEfQpABT1KwAV8i4AGPUtAB3v
+        MgAe9TMAI+A4ACP1NwAm9TkAKfU6AC71PgAbhEIAGoNFACWAUAA7t1gAY6x6AGurfQAyxU0AKdFDADb1
+        RgA99UsAQPVNAEnDYgCdhnsApYFtALeOZAC+k2QApoV0AKeMfwCwjn4AxZlnAMufZwDEmWgAyp9pAMCb
+        dwDSqG4AyaFxAHSVkgB0mZUAZKGHAGu1jwBm0YQAadCIAIiIhwCEiowAioqKAI+PjwCXko4AspqPALae
+        kgC7opcAvaWaAL+pngClpaUAq6urALS0tAC+vr4AwqGCAMSnjQDFrJkAwqyfAMKtogDHsqQAzLivAMu6
+        sQCOwJ0AhsmoAJ/HvgDvxYIA7saFAPLKhADyy4oA7c2XAO3MmgDz0ZoA8dKeAN7DswDbyb4A5MevAPHW
+        rQDlybMA6Mu0AOXNuwDozLkA5dC+AO3QugD027EAvdnHAMTExADazMMA3M/HAN3RyQDK0tQA0dHRANbW
+        1gDb29oA39/fAObTwgDo1cQA6dbIAOrZygDk29UA7d/QAOfe2AD04cIA9+XIAPrnyADu4tQA6+TdAPHj
+        1QDx5doA8+neAPrv3QD88d0A4eHhAObm5gDq6uoA7+/vAPTt5AD57uYA9O/oAPjv6AD18OYA9vHpAPjw
+        6QD88OgA+PLsAPj07gDy8PEA9PT0APvz8AD59fEA+vf0APr49QD8+fYA+vn4APz6+QD9/PoA/v7+ANyx
+        /wDr0f8A////AAAAAAAIAC8ADgBQABUAcAAbAJAAIQCwACYAzwAsAPAAPhH/AFgx/wBxUf8AjHH/AKaR
+        /wC/sf8A2tH/AP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAGRgWFBYWFBYUFBgUFBYUFBQUFBQUFBQPFA8PDw8PDw8PDwAAAAAAAAAAAAAAAAAAFLe3
+        tbW1tbe1t7W1tbW1tbW1s7Wzs7Ozs7OzsrOys7KzCwAAAAAAAAAAAAAAAAAAFMO2tra2tsO2tra2tra2
+        trS2tLS0tLS0tLS0tLK0srOwCwAAAAAAAAAAAAAAAAAAFMjGxsbGxsbGxsbGxsbGxsbGxsbGxcbExMXE
+        xMTDxLSyCwAAAAAAAAAAAAAAAAAAFM/R0dHR0NHR0NHR0dDQ0dDQ0NDQ0M/Pz8/Pzc/NyLSwDAAAAAAA
+        AAAAAAAAAAAAFNDc3Nzc29zd3Nzc3Nzc3Nzc2NjY2NjY2NjR0tHRyLayDQAAAAAAAAAAAAAAAAAAFNDf
+        3Nvc3d3d3d7c3Nnc3NzY2NjY2NHY0dHR0dHRyLayDQAAAAAAAAAAAAAAAAAAFNDe3d3d3d3d3d3e3d3c
+        29zZ3NjZ2NjY0tjR2NHRzbayDgAAAAAAAAAAAAAAAAAAFNHg3t3d3d3d3d3e3d7d3d3d2dzc2NjY2NjR
+        2NHRyMOyDQAAAAAAAAAAAAAAAAAAFdHd4ODg4ODg4ODd4N7g3d7d3dzc3NzY2NjY2NjRzbazDgAAAAAA
+        AAAAAAAAAAAAFdHg4ODg4eDg4eDg4ODg3uDe3d3b3NzY2NjY2NHYyMOzDQAAAAAAAAAAAAAAAAAAFdHh
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////8ACP4AAAAAfwAI/gAAAAB/
+        AAj+AAAAAH8ACP4AAAAAfwAI/gAAAAB/AAj+AAAAAH8ACP4AAAAAfwAI/gAAAAB/AAj+AAAAAH8ACP4A
+        AAAAfwAI/gAAAAB/AAj+AAAAAH8ACP4AAAAAfwAI/gAAAAB/AAj+AAAAAH8ACP4AAAAAfwAI/gAAAAB/
+        AAj+AAAAAH8ACP4AAAAAfwAI/gAAAAB/AAj+AAAAAH8ACP4AAAAAfwAI/gAAAAB/AAj+AAAAAH8ACP4A
+        AAAAfwAI/gAAAAB/AAj+AAAAAH8ACP4AAAAAfwAI/gAAAAB/AAj+AAAAAH8ACP4AAAAA/wAI/gAAAAH/
+        AAj+AAAAA/8ACP4AAAAH/wAI/gAAAA//AAj+AAAAH/8ACP4AAAA//wAI/gAAAH//AAj+AAAA//8ACP4A
+        AAH//wAI/gAAA///AAj+AAAH//8ACP/8AD///wAI///Af///AAj//+B///8ACP//8f///wAI////////
+        AAgoAAAAIAAAAEAAAAABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA59NwAvfUQAX2BfAHV1
+        dACTblkAmnloAAGDKgABhisAAY4uAAGVKgABkS0AAZUvAAGZKwABnyoAAZ8tAA6BOwAShz4AGYo6ABOQ
+        PwABoS0AAaorAAKsKwABqCwABa0uAAG0KwACuSoAAs0nAALCKQACxSkAB8grAALMKAAIzioABNImAALa
+        JQAL0ywACOkmAAnvJgAP6ioAC/AlABzxMgAg5TgAIPQ1ACbzOAAm9TkAIo5KAEmaZQBPlm0AZ5lvAFyo
+        dAAp00QAKdxEADvCWgAu80AAOPVHADzhUABC0F4ATtxpAFrFdgCuiGUAt5JvAKqLdwClh3oAsZB1ALST
+        dQCykX4AdLSOAHaokQBo14QAgoaFALWXggC2mYcAu5yBALecjQC3nZAAu56RAJWxjACHvpgAvqKLAL+h
+        jAC3oZcAvqabAKioqACxsbEAtra2AMGjjwDCpI8AwaORAMOkkADEpZEAwqaUAMWnlADDqJUAx6iVAMip
+        lQDAqZkAxa6dAOS9ggDCrKAAxbCmAMq1pQDLt6oAzrqtAM6/tgDQvbEA07+0AOjChgDTwLQA1MC2ANnD
+        twDWwrgA1sS6ANjEugDZxbwA79KmAPHToQDmzLcA5c26AObPvgDm0L8AutTFAMHBwQDIyMgAzs7OANrN
+        xADezsQA3tPKANTU1ADe3t4A5tLBAOfUwwDn1cQA6NbGAOrYyQDr2s0A7NvOAOvczQDt3s8A49nTAO3e
+        0QDn3tkA9uPGAPfkxgDu4dUA8OPXAPHl2QDx59wA8uneAPTq3QDb6+AA5eXlAOvk4ADu5uEA6uzqAO/u
+        7gDz6+EA9evjAPPs4gD07OEA8evnAPTt5QDy7OgA9fDmAPv05gD28OkA9/LsAPjw6QD48uwA+PTuAO/0
+        8ADx8fEA9PTzAPb29gD49fEA+vf0APr49QD8+fYA+vj4APz6+AD9/PoA/f39ALAANgDPAEAA8ABJAP8R
+        WgD/MXAA/1GGAP9xnAD/kbIA/7HIAP/R3wD///8AAAAAAC8AIABQADYAcABMAJAAYgCwAHgAzwCOAPAA
+        pAD/EbMA/zG+AP9RxwD/cdEA/5HcAP+x5QD/0fAA////AAAAAAAsAC8ASwBQAGkAcACHAJAApQCwAMQA
+        zwDhAPAA8BH/APIx/wD0Uf8A9nH/APeR/wD5sf8A+9H/AP///wAAAAAAGwAvAC0AUAA/AHAAUgCQAGMA
+        sAB2AM8AiADwAJkR/wCmMf8AtFH/AMJx/wDPkf8A3LH/AOvR/wD///8AAAAAAAgALwAOAFAAFQBwABsA
+        kAAhALAAJgDPACwA8AA+Ef8AWDH/AHFR/wCMcf8AppH/AL+x/wDa0f8A////AAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBXl1dXl1dW11bW1tbWV1ZWVlZWFY9AAAAAAAAAAAAAGCCgoKC
+        goKCgoJ3gXd3d3d2dnV1dE8AAAAAAAAAAAAAZJCQkJCQkJCPj4+Pj4+LiYuJiYh3TwAAAAAAAAAAAABl
+        oqKioqSioqKioqCgoJ2cm5SUkYNVAAAAAAAAAAAAAGWmpKSkpKSkpKKioqCcnp6elJuRg1YAAAAAAAAA
+        AAAAZqampaSkpaampKSmoqKgoKCem5GEVQAAAAAAAAAAAABmp6enp6enp6enpKSkoqKgoKCekoRWAAAA
+        AAAAAAAAAGaoqKioqKiop6enp6SkoqaioKCThVkAAAAAAAAAAAAAaK2tra2tra2trainp6enpKKgoJOF
+        WQAAAAAAAAAAAABorq6urq6trq6tra2op6elpKKinoVaAAAAAAAAAAAAAGuvrq+urq6urq6trainp6ek
+        pKKbhVsAAAAAAAAAAAAAa7CwsLCysq+vrq6ura2op6WmopyGXAAAAAAAAAAAAABssrKysrKysbKvr66u
+        ra2np6WknIZbAAAAAAAAAAAAAG6ys7Ozs7OzsrKwr66urainp6agh1sAAAAAAAAAAAAAbrOztLS0s7Oy
+        s7Gvrq6trainp6CHXQAAAAAAAAAAAABvtLS/v7+/v7OzsrKvrq6traenoIdbAAAAAAAAAAAAAG+/v7+/
+        v7+/tLSzsrCurq2tqKegh1wAAAAAAAAAAAAAcb+/tLS/v7+/tLOzsrCura2op6CHXAAAAAAAAAAAAABx
+        v7+qmqy0v7+/tLOysK+urailootXAAAAAAAAAAAAAHG/sXt7gKu/v7+/s7Ktl4yKfnxnYj4AAAAAAAAA
+        AAAAcb+WU1R/sb+0v7+zspdKY19OSDwFAAAAAAAAAAAAAABxv3oERUItAS6VtLKymFGjjXNqQAAAAAAA
+        AAAAAAAAAHG0UgMCGBQLBzGpsrKhSY5yYTsAAAAAAAAAAAAAAAAAcL95MCAiHw0IEk14maFHc2E/AAAA
+        AAAAAAAAAAAAAABwtKw6JScbDQoOCRNDn0ZhOwAAAAAAAAAAAAAAAAAAAHCzszksKyQhIRcPDBCYP0AA
+        AAAAAAAAAAAAAAAAAAAAbaeoRDU2KiYeGRUPEX0GAAAAAAAAAAAAAAAAAAAAAABLS0tMNygoKRscGhYv
+        UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyIhsdNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAz
+        IzgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////+AAAH/gA
+        AB/4AAAf+AAAH/gAAB/4AAAf+AAAH/gAAB/4AAAf+AAAH/gAAB/4AAAf+AAAH/gAAB/4AAAf+AAAH/gA
+        AB/4AAAf+AAAH/gAAB/4AAA/+AAAf/gAAP/4AAH/+AAD//gAB//4AA//+AAf///wf///+P///////ygA
+        AAAYAAAAMAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWVlZAAGAKAABjS0AAZItAAGa
+        LwABnS4AGYg8ABqYOwABoC0AAqkrAAKxKQABuSkAArwpAALJKAAC0ScAAtwkAAbdJgAX3zIAAuIjAA7o
+        KgAW8i4AHfQxAB/0NAAh6DcATqNfAFqocgA69UkAQuBfAFTeagBS3mwAto9nAKGAcACmhncAwZlrAMKa
+        bACampkAiLeXAL+lkAC8o5cAjLygALmpogC8qqIAvayjAL6spACwraoAor+xALm7vAC/v78A2baIAMCn
+        lwDBqZwAwa6lAMWwpgDJsqgAyrSpAMy3rQCQ4J4AnMWuAJrarQCpyaYAocSzAO7NmQDwz5kA3cSnANDB
+        twDWyL8A5smyAOTKtQDmzLcA5s26AOXOvgDoz7wA5tC+AOjQvQDKysoA3M/JANLS0gDX19cA59HBAOLW
+        ywDq2soA69vMAOzczADl29YA7d7RAPbjxQDu4NMA7uHUAPDk1wDw5NgA8efcAPLp3gD06t0A4uLiAOLu
+        5QDz6+EA9OrhAPPs4gD17OIA9O3kAPbv6ADt9O8A9fDmAPbw6QD38+wA+PHrAPjy7AD49O4A8fHxAPX1
+        9AD49fEA+vf0APr49QD8+PYA+vn4APz6+AD9/PoA/f39AMLwAADR/xEA2P8xAN7/UQDj/3EA6f+RAO//
+        sQD2/9EA////AAAAAAAvJgAAUEEAAHBbAACQdAAAsI4AAM+pAADwwwAA/9IRAP/YMQD/3VEA/+RxAP/q
+        kQD/8LEA//bRAP///wAAAAAALxQAAFAiAABwMAAAkD4AALBNAADPWwAA8GkAAP95EQD/ijEA/51RAP+v
+        cQD/wZEA/9KxAP/l0QD///8AAAAAAC8DAABQBAAAcAYAAJAJAACwCgAAzwwAAPAOAAD/IBIA/z4xAP9c
+        UQD/enEA/5eRAP+2sQD/1NEA////AAAAAAAvAA4AUAAXAHAAIQCQACsAsAA2AM8AQADwAEkA/xFaAP8x
+        cAD/UYYA/3GcAP+RsgD/scgA/9HfAP///wAAAAAALwAgAFAANgBwAEwAkABiALAAeADPAI4A8ACkAP8R
+        swD/Mb4A/1HHAP9x0QD/kdwA/7HlAP/R8AD///8AAAAAACwALwBLAFAAaQBwAIcAkAClALAAxADPAOEA
+        8ADwEf8A8jH/APRR/wD2cf8A95H/APmx/wD70f8A////AAAAAAAbAC8ALQBQAD8AcABSAJAAYwCwAHYA
+        zwCIAPAAmRH/AKYx/wC0Uf8AwnH/AM+R/wDcsf8A69H/AP///wAAAAAACAAvAA4AUAAVAHAAGwCQACEA
+        sAAmAM8ALADwAD4R/wBYMf8AcVH/AIxx/wCmkf8Av7H/ANrR/wD///8AAAAAADQ0NDQ0LDQsNCw0LCss
+        KysAAAAAAAAANEpIRkhIRkhGRkZFRUVEREMpAAAAAAAALFhYV1hXWFdXV1dVU1NSUUQpAAAAAAAALGFl
+        ZWVnZ2dnZGRiYlxdWUYrAAAAAAAANGNoamhqaGhlZWdkY2BiWkYqAAAAAAAANGRra2trampoaGVnZGRi
+        WkYqAAAAAAAANGVsbGxsbGxraWhlZ2dkW0grAAAAAAAANWlvcG9wb29vbGtramVkXEksAAAAAAAANWxw
+        cnBwcHBvb2xpamhlXEorAAAAAAAANW9yc3RzcnFwcG9sa2plYEosAAAAAAAANW90dXR1dHRycHBvbGtq
+        Yk8sAAAAAAAANXB1dnZ1dnRzcnBvb2tqYk80AAAAAAAANnJ2dn92f3V1dHFvb2xrZE8sAAAAAAAANnJ/
+        f3Z/f3Z1dHJwb2xrYk8sAAAAAAAAN3J2bm52dn92dXJxb29pZEc0AAAAAAAAN3JzS01tdn92dHRUTEJB
+        NCEAAAAAAAAAN3JeJC86KF92dHQnUEAxHwAAAAAAAAAAN3IwAQgJAwdmdHQzVj4iAAAAAAAAAAAAN3JO
+        GRMPBAIaPXEyPyMAAAAAAAAAAAAAN3B2HBYRCw0FBC4mIwAAAAAAAAAAAAAAN2tvHhsXFAwKBiUgAAAA
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAhmFQ/4NgUP+FYE7/gV1L/4VgTv+FYE7/gV1L/4VgTv+BXUv/gV1L/4Ng
+        UP+BXUv/gV1L/4VgTv+BXUv/gV1L/4FdS/+BXUv/gV1L/4FdS/+BXUv/gV1L/4FdS/98Wkn/gV1L/3xa
+        Sf98Wkn/fFpJ/3xaSf98Wkn/fFpJ/3xaSf98Wkn/fFpJ/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgV1L/+3Quv/t0Lr/6My5/+jMuf/ozLn/6My5/+3Q
+        uv/ozLn/7dC6/+jMuf/ozLn/6My5/+jMuf/ozLn/6My5/+jMuf/ozLn/6Mu0/+jMuf/oy7T/6Mu0/+jL
+        tP/oy7T/6Mu0/+jLtP/oy7T/5cmz/+jLtP/lybP/6Mu0/+XJs//oy7T/dVVG/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgV1L/+bTwv/l0L7/5dC+/+XQ
+        vv/l0L7/5dC+/+bTwv/l0L7/5dC+/+XQvv/l0L7/5dC+/+XQvv/l0L7/5dC+/+XNu//l0L7/5c27/+XN
+        u//lzbv/5c27/+XNu//lzbv/5c27/+XNu//lzbv/5c27/+XJs//lzbv/5cmz/+jLtP/kx6//dVVG/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgV1L/+3f
+        0P/q2cr/6tnK/+rZyv/q2cr/6tnK/+rZyv/q2cr/6tnK/+rZyv/q2cr/6tnK/+rZyv/q2cr/6tnK/+rZ
+        yv/q2cr/6tnK/+rZyv/q2cr/6dbI/+rZyv/o1cT/6NXE/+nWyP/o1cT/6NXE/+jVxP/m08L/6NXE/+XN
+        u//lybP/dVVG/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAgV1L//Hj1f/z6d7/8+ne//Pp3v/z6d7/8eXa//Pp3v/z6d7/8eXa//Pp3v/z6d7/8+ne//Hl
+        2v/x5dr/8+ne//Hl2v/x5dr/8eXa//Hl2v/x5dr/8eXa//Hj1f/x49X/8ePV//Hj1f/x49X/7uLU//Hj
+        1f/u4tT/7d/Q/+XNu//kx6//eFZG/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAgV1L//Hl2v/18Ob/9fDm//Xw5v/18Ob/+O/o//Xw5v/28en/9fDm//Xw
+        5v/18Ob/9fDm//Xw5v/18Ob/9fDm//Xw5v/18Ob/9O3k//Tt5P/07eT/9O3k//Tt5P/07eT/9O3k//Tt
+        5P/z6d7/+u/d//Pp3v/z6d7/7d/Q/+XQvv/lybP/elhH/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgV1L//Hl2v/88Oj/9fDm//jv6P/18Ob/9vHp//bx
+        6f/28en/9vHp//jv6P/18Ob/9fDm//nu5v/18Ob/9fDm//Xw5v/07eT/9O3k//Tt5P/07eT/9O3k//Pp
+        3v/07eT/8+ne//Pp3v/z6d7/8+ne//Pp3v/z6d7/7d/Q/+XQvv/lybP/elhH/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgV1L//Hl2v/48On/9vHp//bx
+        6f/28en/9vHp//bx6f/28en/9vHp//bx6f/48On/9vHp//bx6f/18Ob/+O/o//Xw5v/57ub/9fDm//Tt
+        5P/57ub/9O3k//Tt5P/07eT/+u/d//Tt5P/z6d7/9O3k//Pp3v/z6d7/7uLU/+XQvv/lybP/eldI/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgV1L//Pp
+        3v/48uz/+PDp//bx6f/28en/9vHp//bx6f/28en/9vHp//bx6f/48On/9vHp//jw6f/28en/9vHp//bx
+        6f/28en/+e7m//Xw5v/18Ob/9O3k//Tt5P/07eT/9O3k//Tt5P/z6d7/9O3k//Pp3v/z6d7/7d/Q/+bT
+        wv/lybP/elhH/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAiF9M//Pp3v/28en/+PLs//jy7P/48uz/+PLs//jy7P/48uz/+PLs//jy7P/28en/+PLs//jw
+        6f/48uz/9vHp//jw6f/28en/9vHp//Xw5v/18Ob/9fDm//Xw5v/07eT/9O3k//Tt5P/07eT/9O3k//Tt
+        5P/z6d7/7uLU/+XQvv/oy7T/eldI/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAiF9M//Pp3v/48uz/+PLs//jy7P/48uz/+PTu//jy7P/48uz/+PTu//jy
+        7P/48uz/+PLs//jy7P/48uz/+PDp//jy7P/48On/9vHp//bx6f/47+j/9fDm//Xw5v/07eT/9O3k//Tt
+        5P/07eT/9O3k//Pp3v/07eT/7d/Q/+bTwv/oy7T/elhH/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiF9M//Pp3v/49O7/+PTu//jy7P/49O7/+PLs//j0
+        7v/49O7/+PTu//j07v/49O7/+PTu//jy7P/48uz/+PLs//jy7P/48uz/9vHp//bx6f/28en/+O/o//Xw
+        5v/47+j/9O3k//nu5v/07eT/9O3k//Tt5P/07eT/7uLU/+bTwv/oy7T/fFpJ/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiF9M//Tt5P/78/D/+fXx//n1
+        8f/59fH/+fXx//n18f/59fH/+fXx//n18f/59fH/+PTu//j07v/49O7/+PTu//j07v/49O7/+PLs//jy
+        7P/28en/9vHp//bx6f/28en/9fDm//Xw5v/07eT/9fDm//Tt5P/07eT/7uLU/+jVxP/oy7T/eldI/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiF9M//Tt
+        5P/59fH/+fXx//n18f/59fH/+fXx//n18f/59fH/+fXx//n18f/59fH/+fXx//n18f/59fH/+fXx//j0
+        7v/49O7/+PTu//jy7P/48uz/+PLs//jy7P/28en/9vHp//jv6P/18Ob/+e7m//Tt5P/07eT/8ePV/+bT
+        wv/ozLn/fFpJ/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAiF9M//Tt5P/69/T/+fXx//r39P/69/T/+vf0//r39P/69/T/+vf0//n18f/69/T/+fXx//r3
+        9P/59fH/+fXx//n18f/59fH/+PTu//j07v/48uz/+PLs//jy7P/28en/9vHp//bx6f/18Ob/9fDm//Xw
+        5v/18Ob/8ePV/+jVxP/lzbv/fFpJ/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAi2JO//nu5v/69/T/+vf0//r39P/69/T/+vf0//r39P/69/T/+vf0//r3
+        9P/69/T/+vf0//n18f/69/T/+fXx//n18f/59fH/+PTu//j07v/48uz/+PTu//jy7P/48uz/9vHp//bx
+        6f/28en/+O/o//Xw5v/07+j/8ePV/+jVxP/ozLn/fFpJ/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAi2JO//jv6P/8+fb/+vj1//r49f/8+fb//Pn2//r4
+        9f/6+PX/+vj1//r49f/6+PX/+vf0//r39P/69/T/+vf0//n18f/69/T/+fXx//j07v/49O7/+PTu//jy
+        7P/48uz/+PLs//bx6f/28en/+O/o//Xw5v/28en/8ePV/+jVxP/ozLn/fFpJ/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAi2JO//jv6P/8+fb//Pn2//z5
+        9v/8+fb//Pn2//z59v/8+fb//Pn2//z59v/8+fb/+vj1//r49f/6+PX/+vf0//r39P/69/T/+fXx//n1
+        8f/59fH/+PTu//j07v/48uz/+PLs//jy7P/48On/9vHp//Xw5v/47+j/8eXa/+jVxP/lzbv/gV1L/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAi2JO//jv
+        6P/8+fb/+vn4//z59v/8+vn/+vn4//z6+f/8+vn//Pr5//r5+P/6+fj//Pn2//z59v/6+PX/+vj1//r3
+        9P/69/T/+vf0//n18f/59fH/+fXx//j07v/48uz/+PTu//bx6f/48uz/9vHp//bx6f/47+j/8eXa/+jV
+        xP/ozLn/fFpJ/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAjWJQ//jw6f/8+vn//Pr5//z6+f/8+vn//Pr5//z6+f/8+vn//Pr5//z6+f/8+vn//Pr5//r5
+        +P/8+fb//Pn2//z59v/69/T/+vf0//r39P/59fH/+fXx//n18f/49O7/+PTu//jy7P/48uz/+PLs//bx
+        6f/28en/8eXa/+nWyP/lzbv/gV1L/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAj2RR//jw6f/8+vn//Pr5//38+v/9/Pr//fz6//38+v/9/Pr//fz6//38
+        +v/9/Pr//Pr5//z6+f/8+vn//Pn2//z59v/8+fb/+vf0//r39P/69/T/+fXx//n18f/59fH/+PLs//jy
+        7P/48uz/9vHp//jw6f/28en/8eXa/+nWyP/ozLn/gV1L/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAj2RR//jy7P/9/Pr//fz6//38+v/9/Pr//fz6//38
+        +v/+/v7//fz6//38+v/9/Pr//fz6//z6+f/8+vn//Pr5//r5+P/8+fb/+vf0//r39P/69/T/+fXx//n1
+        8f/59fH/+PTu//j07v/48uz/+PLs//bx6f/28en/8eXa/+nWyP/l0L7/gV1L/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAj2RR//jy7P/+/v7//fz6//38
+        +v/+/v7//v7+//7+/v/+/v7//v7+//38+v/+/v7//fz6//z6+f/9/Pr//Pr5//z6+f/8+fb//Pn2//r3
+        9P/69/T/+vf0//n18f/59fH/+fXx//j07v/48uz/+PLs//jy7P/48uz/8eXa/+nWyP/ozLn/gV1L/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkWZR//vz
+        8P/+/v7//fz6//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//38+v/9/Pr//fz6//z6
+        +f/8+vn//Pn2//r49f/69/T/+vf0//n18f/59fH/+PTu//n18f/48uz/+PLs//jy7P/48On/8+ne/+nW
+        yP/ozLn/gV1L/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAkWZR//vz8P/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//38
+        +v/+/v7//fz6//38+v/8+vn//Pn2//z59v/69/T/+vf0//n18f/59fH/+fXx//n18f/48uz/+PLs//jy
+        7P/48uz/8eXa/+nWyP/l0L7/gV1L/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAkWZR//j07v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//fz6//38+v/8+vn//Pn2//z59v/6+PX/+vf0//r39P/59fH/+fXx//n1
+        8f/49O7/+PTu//jy7P/48uz/8eXa/+nWyP/lzbv/gV1L/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlGlT//vz8P/+/v7//v7+//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//fz6//38+v/9/Pr//Pn2//z59v/8+fb/+vf0//r3
+        9P/59fH/+fXx//n18f/49O7/+PLs//jy7P/48uz/8eXa/+nWyP/l0L7/gV1L/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlGlT//vz8P/+/v7//v7+//7+
+        /v/+/v7/+vn4//38+v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/9/Pr//Pr5//z5
+        9v/8+fb//Pn2//r39P/69/T/+fXx//n18f/59fH/+PTu//j07v/49O7/8eXa/+nWyP/lybP/gV1L/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlGlT//vz
+        8P/+/v7//v7+//7+/v/v7+//5ubm/+rq6v/x8fH//Pr5//7+/v/+/v7//v7+//7+/v/+/v7//v7+//38
+        +v/9/Pr//Pr5//z59v/8+fb//Pn2//r39P/69/T/+fXx//n18f/49O7/9vHp//j07v/07+j/9O3k/+rZ
+        yv/ew7P/hmFQ/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAmGpU//vz8P/+/v7//v7+//7+/v/W1tb/1tbW/9bW1v/f39//6urq//r5+P/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/9/Pr//Pr5//z6+f/8+fb//fz6//7+/v/9/Pr//Pr5//n18f/07+j/9O3k/+vk
+        3f/n3tj/5NvV/9vJvv+wjn7/iWpd/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAlmlV//vz8P/+/v7//v7+/+rq6v++vr7/vr6+/8TExP/R0dH/4eHh//7+
+        /v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/9/Pr//Pr5//z59v/8+vn/2szD/7+pnv+9pZr/u6KX/7ae
+        kv+2npL/spqP/7Kaj/+njH//k3Jk/4ZhUP+IY1P/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmGpU//vz8P/+/v7//v7+/9HR0f+rq6v/q6ur/7S0
+        tP/ExMT/9PT0//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/9/Pr//Pr5//z59v/9/Pr/wq2i/6aF
+        dP/LurH/x7Kk/8Wsmf/Ep43/wqGC/8Cbd//JoXH/t45k/4llV/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmGxV//vz8P/+/v7//v7+/76+
+        vv+Kior/iIiH/6Wlpf/K0tT/ZKGH/xuEQv8KeDP/K3xS/47Anf/+/v7//v7+//38+v/9/Pr//Pr5//z5
+        9v/9/Pr/zLiv/72lmv/9/Pr//PHd//flyP/027H/8dKe//LLiv/SqG7/iGhb/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmGpU//vz
+        8P/+/v7//v7+/4+Pj/9OTk7/S0lI/1RmZP8TnTj/AZYw/wGPLv8BiSz/AYIr/wF5J/9jrHr//v7+//7+
+        /v/9/Pr//Pr5//z59v/8+fb/3M/H/6aFdP/88d3/9OHC//HWrf/tzJr/7saF/8qfaf+IaFv/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAmGxV//vz8P/+/v7//v7+/3R0dP9xcG7/Wl9g/wGmJv8Cuiv/ArIs/wGqLP8Bmy//AY8u/wGD
+        Kv8BeSf/vdnH//38+v/9/Pr//Pn2//z59v/9/Pr/3dHJ/6WBbf/658j/8dat/+3Mmv/uxoX/xJlo/4hm
+        Wf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAmGpU//jy7P/+/v7//v7+/4iIh/+Xko7/HZs3/wLWKf8C1Cb/As8o/wLJ
+        Kf8Bqyr/AY8u/wGJLP8Cgyj/a6t9//r5+P/8+vn//Pr5//z59v/9/Pr/3dHJ/6R/aP/027H/7c2X/+7G
+        hf/Kn2n/iWpd/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmGxV//jy7P/+/v7//v7+/9vb2v+Eioz/AtUr/wLw
+        If8C7x//Au0g/wK/K/8BjS3/AYIr/wF5J/8BfCj/AoMo/wJ7Lf8ag0X/dJmV//Pw8f/8+vn/3dHJ/6N8
+        Y//z0Zr/78WC/8WZZ/+NbGH/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmGxV//jy7P/+/v7//fz6//7+
+        /v+Gyaj/B/Qj/xH0Kf8U9Sv/Cesk/wK/K/8Bqyr/AY8u/wGrKv8Cuiv/AZsv/wGUMP8BljD/AY8u/3SV
+        kv/8+fb/3dHJ/6J7Xf/yyoT/vpNk/4trYP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlmlV//jy
+        7P/9/Pr//v7+//38+v9m0YT/GPUt/yb1Of8p9Tr/C+8m/wLeJf8Cxij/BMcn/wLhIv8Bpyz/AaEu/wGb
+        L/8BlDD/AZQw/xx4SP/8+fb/2szD/6Z+Wv/Ln2f/jWxh/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAlmlV//jw6f/8+vn/+vn4//z6+f9p0Ij/JvU5/zb1Rv9A9U3/HvUz/wf0I/8C4iP/FfIu/wK3
+        K/8Csiz/Aaos/wGkLf8Bmy//AZYw/wl3M//8+fb/wqyf/5duVf+Pc2b/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAmGxV//zw6P/88Oj/+O/o//zw6P+fx77/He8y/zb1Rv899Uv/NvVG/yP1
+        N/8U9Sv/D9kt/wK/K/8Cuiv/ArIs/wGrKv8BpC3/AaEu/yWAUP/57ub/mnRk/5N1aP8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmnBc/5pwXP+acFz/mW5Z/5luWf+OZ2b/HME3/yb1
+        Of8p9Tr/HvUz/y71Pv829Ub/AtIm/wLJKf8Cwin/Arwq/wK0K/8Briz/Aacs/zZRWf+PaFb/nYZ7/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACnRQ/8P5yj/DPQm/wLqI/8j4Dj/Atgn/wLSJv8CySn/AsYo/wK8Kv8Ctyv/CJss/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABJw2L/BOYk/wLYJ/8C0ib/Askp/wLJ
+        Kf8Ctyv/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB9An/wLn
+        I/8C4iP/Atgn/wK9J/9rtY//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAADLFTf8SwDH/O7dY/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD///////8ACP4AAAAAfwAI/gAAAAB/AAj+AAAAAH8ACP4AAAAAfwAI/gAAAAB/
+        AAj+AAAAAH8ACP4AAAAAfwAI/gAAAAB/AAj+AAAAAH8ACP4AAAAAfwAI/gAAAAB/AAj+AAAAAH8ACP4A
+        AAAAfwAI/gAAAAB/AAj+AAAAAH8ACP4AAAAAfwAI/gAAAAB/AAj+AAAAAH8ACP4AAAAAfwAI/gAAAAB/
+        AAj+AAAAAH8ACP4AAAAAfwAI/gAAAAB/AAj+AAAAAH8ACP4AAAAAfwAI/gAAAAB/AAj+AAAAAH8ACP4A
+        AAAAfwAI/gAAAAB/AAj+AAAAAH8ACP4AAAAA/wAI/gAAAAH/AAj+AAAAA/8ACP4AAAAH/wAI/gAAAA//
+        AAj+AAAAH/8ACP4AAAA//wAI/gAAAH//AAj+AAAA//8ACP4AAAH//wAI/gAAA///AAj+AAAH//8ACP/8
+        AD///wAI///Af///AAj//+B///8ACP//8f///wAI////////AAgoAAAAIAAAAEAAAAABACAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIZhUByEYFBVg15MVYNeTFWDXkxVg15MVYFd
+        S1WCXk1VgV1LVYNeTFWBXUtVgV1LVYFdS1WBXUtVgV1LVYFdS1V9W0lVfVtJVXxaSVV8WklVfFpJVXxa
+        SVV8WklVfFpJHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgl5MVbKRfv/IqZX/xqeV/8an
+        lf/IqZX/xqeU/8eolf/Fp5T/xqeV/8WnlP/Fp5T/xaaT/8Wmk//FppH/xaaR/8SlkP/EpZD/w6SQ/8Ok
+        kP/CpI//wqSP/6qLd/93VkdVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACBXUtVxa6d/+bT
+        wv/m08L/5tPC/+fUw//m08L/5tPC/+bTwv/m08L/5tPC/+bRwP/m0sH/5tHA/+bQv//m0L//5s++/+bP
+        vv/mz77/5s26/+XOu//mzLf/v6GM/3VVRlUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIFd
+        S1XKtaX/8OPX//Dj1//v4tb/7+LW/+/i1v/v4tb/8OPX/+/h1f/v4dX/7+HV/+7h1P/u4dT/7uDU/+7f
+        0v/u3s//7t7Q/+3ez//t3s//69zN/+fRwP+/oYz/dlVGVQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAgV1LVcu3qv/28Ob/9e/m//Xv5v/28Of/9fDo//Xv5v/18Ob/9e/m//Xw5v/18Ob/9O7k//Tt
+        5P/07eT/8+zi//Ps4//z6+L/9Ord//Tq3f/x5dn/59XE/8Gjj/96WEdVAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACBXUtVy7eq//jw6P/28Oj/9fDo//bx6P/28ej/9vDo//bw6P/28Oj/9e/m//Xv
+        5v/27uX/9O3k//bt5P/z7OL/9e3h//Xs4P/z6d//8+nf//Hm2v/n1cT/waOP/3pXR1UAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAINdS1XNuq3/9/Hq//fx6v/28er/9vHq//bx6v/28er/9/Dp//fw
+        6f/28en/9vDp//bw6P/27+b/9O/l//Tu5P/07eT/9O3k//Pr4f/z6+H/8ebZ/+jWxv/Co4//eldHVQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiF9MVc+6rf/38ev/+PHs//jy7P/48uz/+PLs//jy
+        7P/38ev/+PHr//fx6//38Or/9vDo//Xw6P/27+b/9fDm//Tt5P/07eT/9O3k//Pr4f/x59z/6NbG/8Ok
+        j/96V0dVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIX0xVz7uu//jz7v/48+7/+PPu//jz
+        7v/49O//+PTv//j07v/48+3/+PLs//jy7P/38uv/9vHq//bw6P/28Of/9u/n//bu5f/07eT/9O3k//Lp
+        3v/p2Mj/w6WQ/3tYSFUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIhfTFXQvbH/+fTw//n1
+        8f/59fH/+fXx//n18f/59fH/+PTw//j08P/49PD/+PTu//jz7f/48uz/9/Hr//fx6//18Oj/9u/n//Xu
+        5f/17eT/8une/+nYyP/DpZL/e1hIVQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiWBMVdG+
+        sv/59vP/+fbz//r39P/69/T/+vf0//n28v/59vP/+fby//n18f/59fH/+PTw//j07v/48uz/+PLs//bx
+        6f/28en/9fDm//Xv5v/z6+D/69nJ/8KmlP98WklVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACLYk5V07+0//r49f/69/T/+/j1//r39P/69/T/+vf0//r39P/59vP/+fbz//n18f/59fL/+PTu//jz
+        7f/48uz/9/Hr//bx6f/28Oj/9u/m//Pr4v/r2cn/xKaT/3xaSVUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAItiTlXTwLT/+/n2//v59v/7+fb/+/n2//z59//7+fb/+/j2//r49f/69/T/+vf0//n2
+        8//59fH/+PTw//j07v/48uz/9/Lr//fw6f/18Of/9evj/+vay//Dp5X/fltKVQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAjGJPVdTAtf/7+fj/+/n4//v5+P/7+fj//Pr5//v5+P/7+fj/+/n3//v4
+        9f/7+PX/+vf0//n28//59fH/+PTw//jz7f/38uz/9/Hr//bx6f/07OP/69rN/8Onlf9+W0pVAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACPZFFV1cG3//z6+f/8+/n//fz6//38+v/9/Pr//fz6//z7
+        +f/8+vn//Pn4//v59v/7+PX/+vf0//n28//59fH/+PTv//jy7P/38ev/9/Dp//Tt5P/r287/xaeV/4Fd
+        S1UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI9kUVXVwrj//fz7//38+v/9/fz//f38//39
+        /f/9/Pr//fz7//z6+f/8+vn/+/n4//v49f/69/T/+fbz//n18f/49PD/+PTu//jx7P/38ev/9e3l/+vb
+        zv/Fp5X/gV1LVQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkWZRVdfEu//9/f3//f39//7+
+        /v/+/v7//v7+//7+/v/+/v7//fz7//38+v/8+/n//Pn4//v49f/69/T/+fXy//j08P/49PD/+PHs//jy
+        7P/27eX/7NvO/8Wnlf+BXUtVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACRZlFV1sS6//7+
+        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
+        AAAAAAAABtAnOQ/YLuML0yz/DMMwxmu1j3EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAMsRNOSO7QlU7t1gcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AA
+        AA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AA
+        AB/wAAA/8AAAf/AAAP/wAAH/8AAD//AAB//wAA///4A////wf///+P//KAAAABgAAAAwAAAAAQAgAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIZhUECEYE+Ag15MgINeTICDXkyAgl5NgIFd
+        S4CDXkyAgV1LgIFdS4CBXUuAgV1LgH5bSoB8WkmAfFpJgHxaSYB8WkmAfFpJQAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAIFdS4Dp0L3/5s67/+bOu//oz7z/58+7/+bOu//mzrv/5s26/+bNuf/mzLj/5sy3/+bM
+        t//mzLf/5cq1/+XKtf/mybL/dVVGgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIFdS4Du4dP/7uHU/+7g
+        0//u4dT/7uDT/+7h1P/t39L/7uDT/+3f0v/t39L/7d3Q/+zczP/s3M3/69vM/+rayv/kyrb/dlVGgAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIFdS4D06uD/9e/m//bw5//18Oj/9vDn//Xw5v/27+b/9fDm//Tt
+        5P/07eT/8+zi//Ps4v/z6t//9Ord//Dk1//lzLj/elhHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIFd
+        S4D17OP/9vDp//bx6f/28en/9vHp//fw6f/28Oj/9vDo//fv5v/17uX/9O3k//Xt4v/z6+H/8+vh//Dk
+        2P/lzbn/eldHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIhfTID17eT/+PLs//jy7P/48uz/+PLs//fx
+        6//48ev/9/Dp//bw6f/28Of/9fDm//Tt5P/07eT/8+zi//Dl2f/mzrr/eldHgAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAIhfTID27+j/+PTv//j07//49O//+PTv//j07v/48+3/+PPt//fy6//28en/9vDo//Xv
+        5v/17uX/9O3k//Hn3P/nz7v/e1hIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIhfTID28ev/+fXx//n2
+        8v/59vL/+fXx//n18f/59fH/+PTw//j07v/48uz/+PLs//bx6f/28Of/9e7l//Lo3f/m0L7/fFpJgAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAItiToD58+7/+vf0//v49f/69/T/+vf0//r39P/59vP/+fXx//n1
+        8f/48+3/+PPt//fx6//28en/9u/n//Pp3v/o0L7/fFpJgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIti
+        ToD69O//+/n2//v59//8+ff/+/n3//v49v/6+PX/+vf0//n28//59fH/+PTu//jy7P/38er/9fDo//Tq
+        4f/n0L//fltKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI5jUID69fH//Pr5//z7+f/8+/n//Pv5//z6
+        +f/7+fj//Pn2//r39P/59vP/+fXx//jz7v/48uz/9/Hp//Pr4f/n0cH/gV1LgAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAI9kUYD69/T//fz6//39/P/9/f3//fz7//38+//8+vn/+/n4//v49f/69/T/+fXx//j0
+        8P/48+3/9/Hr//Tr4v/n0sH/gV1LgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJFmUYD8+Pf//f39//7+
+        /v/+/v7//v7+//7+/v/9/Pv//Pv5//z59//69/T/+fby//j08P/48+7/+PLs//Xs4//n0sH/gV1LgAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAJJnUoD7+Pb//v7+//7+/v/+/v7//v7+//7+/v/+/v7//fz6//z6
+        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
+        rEHAP6xB/H+sQQ==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Output Deliveries</value>
+  </data>
+</root>

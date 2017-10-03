@@ -1,0 +1,1591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6C618361-3FED-4AC9-B304-00C9849C7C11}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>moleQule.Face.Invoice</RootNamespace>
+    <AssemblyName>moleQule.Face.Invoice</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+    <GenerateResourceNeverLockTypeAssemblies>true</GenerateResourceNeverLockTypeAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Staging|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisFailOnMissingRules>true</CodeAnalysisFailOnMissingRules>
+    <DefineConstants>STAGING;</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Staging|x86'">
+    <OutputPath>bin\x86\Staging\</OutputPath>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Csla">
+      <HintPath>..\..\..\External Libs\Csla.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Infralution.Localization">
+      <HintPath>..\..\..\External Libs\Infralution.Localization\bin\Infralution.Localization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Face">
+      <HintPath>..\..\..\moleQule\moleQule.Face\bin\moleQule.Face.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Face.Common">
+      <HintPath>..\..\..\moleQule\moleQule.Common\code\Face\bin\moleQule.Face.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Face.Hipatia">
+      <HintPath>..\..\..\Hipatia\code\Face\bin\moleQule.Face.Hipatia.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Face.Store">
+      <HintPath>..\..\..\moleQule.Store\code\Face\bin\moleQule.Face.Store.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Library, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\moleQule\moleQule.Library\bin\moleQule.Library.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Library.Common">
+      <HintPath>..\..\..\moleQule\moleQule.Common\code\Library\bin\moleQule.Library.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Library.Hipatia">
+      <HintPath>..\..\..\Hipatia\code\Library\bin\moleQule.Library.Hipatia.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Library.Invoice">
+      <HintPath>..\Library\bin\moleQule.Library.Invoice.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Library.Store">
+      <HintPath>..\..\..\moleQule.Store\code\Library\bin\moleQule.Library.Store.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\..\moleQule\packages\NHibernate.3.3.3.4001\lib\Net35\NHibernate.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormMng.cs" />
+    <Compile Include="Forms\Charge\Invoice\InvoiceChargesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\Invoice\InvoiceChargesForm.designer.cs">
+      <DependentUpon>InvoiceChargesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliveryAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliveryAddForm.designer.cs">
+      <DependentUpon>DeliveryAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliveryEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliveryEditForm.designer.cs">
+      <DependentUpon>DeliveryEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliveryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliveryForm.designer.cs">
+      <DependentUpon>DeliveryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliveryMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliveryMngForm.Designer.cs">
+      <DependentUpon>DeliveryMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliverySelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliverySelectForm.Designer.cs">
+      <DependentUpon>DeliverySelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliveryUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliveryUIForm.designer.cs">
+      <DependentUpon>DeliveryUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliveryViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliveryViewForm.designer.cs">
+      <DependentUpon>DeliveryViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliveryLine\DeliveryLineMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliveryLine\DeliveryLineMngForm.Designer.cs">
+      <DependentUpon>DeliveryLineMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliveryLine\DeliveryLineAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliveryLine\DeliveryLineAddForm.Designer.cs">
+      <DependentUpon>DeliveryLineAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliveryLine\DeliveryLineEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliveryLine\DeliveryLineEditForm.Designer.cs">
+      <DependentUpon>DeliveryLineEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliveryLine\DeliveryLineUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Delivery\DeliveryLine\DeliveryLineUIForm.Designer.cs">
+      <DependentUpon>DeliveryLineUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cash\CashAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cash\CashAddForm.Designer.cs">
+      <DependentUpon>CashAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cash\CashEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cash\CashEditForm.Designer.cs">
+      <DependentUpon>CashEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cash\CashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cash\CashForm.Designer.cs">
+      <DependentUpon>CashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cash\CashMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cash\CashMngForm.Designer.cs">
+      <DependentUpon>CashMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cash\CashSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cash\CashSelectForm.Designer.cs">
+      <DependentUpon>CashSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cash\CashUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cash\CashUIForm.Designer.cs">
+      <DependentUpon>CashUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cash\CashViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cash\CashViewForm.Designer.cs">
+      <DependentUpon>CashViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cash\CashCount\CashCountAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cash\CashCount\CashCountAddForm.Designer.cs">
+      <DependentUpon>CashCountAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cash\CashCount\CashCountEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cash\CashCount\CashCountEditForm.Designer.cs">
+      <DependentUpon>CashCountEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cash\CashCount\CashCountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cash\CashCount\CashCountForm.Designer.cs">
+      <DependentUpon>CashCountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cash\CashCount\CashCountMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cash\CashCount\CashCountMngForm.Designer.cs">
+      <DependentUpon>CashCountMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cash\CashCount\CashCountSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cash\CashCount\CashCountSelectForm.Designer.cs">
+      <DependentUpon>CashCountSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cash\CashCount\CashCountUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cash\CashCount\CashCountUIForm.Designer.cs">
+      <DependentUpon>CashCountUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cash\CashCount\CashCountViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cash\CashCount\CashCountViewForm.Designer.cs">
+      <DependentUpon>CashCountViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cash\CashLineMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cash\CashLineMngForm.Designer.cs">
+      <DependentUpon>CashLineMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Client\ClientAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Client\ClientAddForm.designer.cs">
+      <DependentUpon>ClientAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Client\ClientEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Client\ClientEditForm.designer.cs">
+      <DependentUpon>ClientEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Client\ClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Client\ClientForm.Designer.cs">
+      <DependentUpon>ClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Client\ClientMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Client\ClientMngForm.Designer.cs">
+      <DependentUpon>ClientMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Client\ClientSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Client\ClientSelectForm.Designer.cs">
+      <DependentUpon>ClientSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Client\ClientUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Client\ClientUIForm.designer.cs">
+      <DependentUpon>ClientUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Client\ClientViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Client\ClientViewForm.designer.cs">
+      <DependentUpon>ClientViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\CobroEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\CobroEditForm.designer.cs">
+      <DependentUpon>CobroEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\Invoice\CobroFacturaAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\Invoice\CobroFacturaAddForm.Designer.cs">
+      <DependentUpon>CobroFacturaAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\Invoice\CobroFacturaEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\Invoice\CobroFacturaEditForm.Designer.cs">
+      <DependentUpon>CobroFacturaEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\Invoice\CobroFacturaUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\Invoice\CobroFacturaUIForm.Designer.cs">
+      <DependentUpon>CobroFacturaUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\CobroForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\CobroForm.designer.cs">
+      <DependentUpon>CobroForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\ClientChargeMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\ClientChargeMngForm.Designer.cs">
+      <DependentUpon>ClientChargeMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\REA\CobroREA\CobroREAViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\REA\CobroREA\CobroREAViewForm.Designer.cs">
+      <DependentUpon>CobroREAViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\REA\CobroREA\REAChargeAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\REA\CobroREA\REAChargeAddForm.Designer.cs">
+      <DependentUpon>REAChargeAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\REA\CobroREA\REAChargeEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\REA\CobroREA\REAChargeEditForm.Designer.cs">
+      <DependentUpon>REAChargeEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\REA\CobroREA\CobroREAForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\REA\CobroREA\CobroREAForm.Designer.cs">
+      <DependentUpon>CobroREAForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\REA\CobroREA\CobroREAMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\REA\CobroREA\CobroREAMngForm.Designer.cs">
+      <DependentUpon>CobroREAMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\REA\CobroREA\REAChargeUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\REA\CobroREA\REAChargeUIForm.Designer.cs">
+      <DependentUpon>REAChargeUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\Fomento\CobroFomento\CobroFomentoMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\Fomento\CobroFomento\CobroFomentoMngForm.Designer.cs">
+      <DependentUpon>CobroFomentoMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\Fomento\CobroFomento\CobroFomentoViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\Fomento\CobroFomento\CobroFomentoViewForm.Designer.cs">
+      <DependentUpon>CobroFomentoViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\Fomento\CobrosFomentoEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\Fomento\CobrosFomentoEditForm.designer.cs">
+      <DependentUpon>CobrosFomentoEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\Fomento\CobrosFomentoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\Fomento\CobrosFomentoForm.designer.cs">
+      <DependentUpon>CobrosFomentoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\Fomento\CobrosFomentoUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\Fomento\CobrosFomentoUIForm.designer.cs">
+      <DependentUpon>CobrosFomentoUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\REA\CobrosREAEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\REA\CobrosREAEditForm.designer.cs">
+      <DependentUpon>CobrosREAEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\REA\CobrosREAForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\REA\CobrosREAForm.designer.cs">
+      <DependentUpon>CobrosREAForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\REA\CobrosREAUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\REA\CobrosREAUIForm.designer.cs">
+      <DependentUpon>CobrosREAUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\CobroSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\CobroSelectForm.Designer.cs">
+      <DependentUpon>CobroSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\CobroMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\CobroMngForm.Designer.cs">
+      <DependentUpon>CobroMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\CobroUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\CobroUIForm.designer.cs">
+      <DependentUpon>CobroUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\Fomento\CobroFomento\CobroFomentoAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\Fomento\CobroFomento\CobroFomentoAddForm.Designer.cs">
+      <DependentUpon>CobroFomentoAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\Fomento\CobroFomento\CobroFomentoEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\Fomento\CobroFomento\CobroFomentoEditForm.Designer.cs">
+      <DependentUpon>CobroFomentoEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\Fomento\CobroFomento\CobroFomentoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\Fomento\CobroFomento\CobroFomentoForm.Designer.cs">
+      <DependentUpon>CobroFomentoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Charge\Fomento\CobroFomento\CobroFomentoUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Charge\Fomento\CobroFomento\CobroFomentoUIForm.Designer.cs">
+      <DependentUpon>CobroFomentoUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FinancialCash\FinancialCashEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FinancialCash\FinancialCashEditForm.Designer.cs">
+      <DependentUpon>FinancialCashEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FinancialCash\FinancialCashMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FinancialCash\FinancialCashMngForm.Designer.cs">
+      <DependentUpon>FinancialCashMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FinancialCash\FinancialCashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FinancialCash\FinancialCashForm.Designer.cs">
+      <DependentUpon>FinancialCashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FinancialCash\FinancialCashUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FinancialCash\FinancialCashUIForm.Designer.cs">
+      <DependentUpon>FinancialCashUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FinancialCash\FinancialCashViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FinancialCash\FinancialCashViewForm.Designer.cs">
+      <DependentUpon>FinancialCashViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Invoice\InvoiceLineMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Invoice\InvoiceLineMngForm.Designer.cs">
+      <DependentUpon>InvoiceLineMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Invoice\InvoiceAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Invoice\InvoiceAddForm.designer.cs">
+      <DependentUpon>InvoiceAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Invoice\InvoiceEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Invoice\InvoiceEditForm.designer.cs">
+      <DependentUpon>InvoiceEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Invoice\InvoiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Invoice\InvoiceForm.designer.cs">
+      <DependentUpon>InvoiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Invoice\InvoiceMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Invoice\InvoiceMngForm.Designer.cs">
+      <DependentUpon>InvoiceMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Invoice\InvoiceSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Invoice\InvoiceSelectForm.Designer.cs">
+      <DependentUpon>InvoiceSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Invoice\InvoiceUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Invoice\InvoiceUIForm.designer.cs">
+      <DependentUpon>InvoiceUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Invoice\InvoiceViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Invoice\InvoiceViewForm.designer.cs">
+      <DependentUpon>InvoiceViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BankLine\BankLineAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BankLine\BankLineAddForm.Designer.cs">
+      <DependentUpon>BankLineAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BankLine\BankLineEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BankLine\BankLineEditForm.Designer.cs">
+      <DependentUpon>BankLineEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BankLine\BankLineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BankLine\BankLineForm.Designer.cs">
+      <DependentUpon>BankLineForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BankLine\BankLineMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BankLine\BankLineMngForm.Designer.cs">
+      <DependentUpon>BankLineMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BankLine\BankLineSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BankLine\BankLineSelectForm.Designer.cs">
+      <DependentUpon>BankLineSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BankLine\BankLineUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BankLine\BankLineUIForm.Designer.cs">
+      <DependentUpon>BankLineUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BankLine\BankLineViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BankLine\BankLineViewForm.Designer.cs">
+      <DependentUpon>BankLineViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Order\LineaPedido\LineaPedidoAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Order\LineaPedido\LineaPedidoAddForm.Designer.cs">
+      <DependentUpon>LineaPedidoAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Order\LineaPedido\LineaPedidoEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Order\LineaPedido\LineaPedidoEditForm.Designer.cs">
+      <DependentUpon>LineaPedidoEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Order\LineaPedido\LineaPedidoUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Order\LineaPedido\LineaPedidoUIForm.Designer.cs">
+      <DependentUpon>LineaPedidoUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Order\PedidoAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Order\PedidoAddForm.Designer.cs">
+      <DependentUpon>PedidoAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Order\PedidoEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Order\PedidoEditForm.Designer.cs">
+      <DependentUpon>PedidoEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Order\PedidoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Order\PedidoForm.Designer.cs">
+      <DependentUpon>PedidoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Order\PedidoMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Order\PedidoMngForm.Designer.cs">
+      <DependentUpon>PedidoMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Order\PedidoSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Order\PedidoSelectForm.Designer.cs">
+      <DependentUpon>PedidoSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Order\PedidoUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Order\PedidoUIForm.Designer.cs">
+      <DependentUpon>PedidoUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Order\PedidoViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Order\PedidoViewForm.Designer.cs">
+      <DependentUpon>PedidoViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Loan\LoanAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Loan\LoanAddForm.designer.cs">
+      <DependentUpon>LoanAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Loan\LoanEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Loan\LoanEditForm.designer.cs">
+      <DependentUpon>LoanEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Loan\LoanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Loan\LoanForm.designer.cs">
+      <DependentUpon>LoanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Loan\LoanMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Loan\LoanMngForm.designer.cs">
+      <DependentUpon>LoanMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Loan\LoanSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Loan\LoanSelectForm.designer.cs">
+      <DependentUpon>LoanSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Loan\LoanUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Loan\LoanUIForm.designer.cs">
+      <DependentUpon>LoanUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Loan\LoanViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Loan\LoanViewForm.designer.cs">
+      <DependentUpon>LoanViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Budget\BudgetLine\BudgetLineAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Budget\BudgetLine\BudgetLineAddForm.Designer.cs">
+      <DependentUpon>BudgetLineAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Budget\BudgetLine\BudgetLineEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Budget\BudgetLine\BudgetLineEditForm.Designer.cs">
+      <DependentUpon>BudgetLineEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Budget\BudgetLine\BudgetLineUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Budget\BudgetLine\BudgetLineUIForm.Designer.cs">
+      <DependentUpon>BudgetLineUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Budget\BudgetAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Budget\BudgetAddForm.designer.cs">
+      <DependentUpon>BudgetAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Budget\BudgetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Budget\BudgetForm.designer.cs">
+      <DependentUpon>BudgetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Budget\BudgetMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Budget\BudgetMngForm.Designer.cs">
+      <DependentUpon>BudgetMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Budget\BudgetSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Budget\BudgetSelectForm.Designer.cs">
+      <DependentUpon>BudgetSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Budget\BudgetUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Budget\BudgetUIForm.designer.cs">
+      <DependentUpon>BudgetUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Budget\BudgetViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Budget\BudgetViewForm.designer.cs">
+      <DependentUpon>BudgetViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Budget\BudgetEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Budget\BudgetEditForm.designer.cs">
+      <DependentUpon>BudgetEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ticket\TicketAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ticket\TicketAddForm.designer.cs">
+      <DependentUpon>TicketAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ticket\TicketEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ticket\TicketEditForm.designer.cs">
+      <DependentUpon>TicketEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ticket\TicketForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ticket\TicketForm.designer.cs">
+      <DependentUpon>TicketForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ticket\TicketMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ticket\TicketMngForm.Designer.cs">
+      <DependentUpon>TicketMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ticket\TicketSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ticket\TicketSelectForm.Designer.cs">
+      <DependentUpon>TicketSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ticket\TicketUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ticket\TicketUIForm.designer.cs">
+      <DependentUpon>TicketUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ticket\TicketViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ticket\TicketViewForm.designer.cs">
+      <DependentUpon>TicketViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BankTransfer\TraspasoAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BankTransfer\TraspasoAddForm.Designer.cs">
+      <DependentUpon>TraspasoAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BankTransfer\TraspasoEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BankTransfer\TraspasoEditForm.Designer.cs">
+      <DependentUpon>TraspasoEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BankTransfer\TraspasoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BankTransfer\TraspasoForm.Designer.cs">
+      <DependentUpon>TraspasoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BankTransfer\TraspasoMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BankTransfer\TraspasoMngForm.Designer.cs">
+      <DependentUpon>TraspasoMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BankTransfer\TraspasoSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BankTransfer\TraspasoSelectForm.Designer.cs">
+      <DependentUpon>TraspasoSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BankTransfer\TraspasoUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BankTransfer\TraspasoUIForm.Designer.cs">
+      <DependentUpon>TraspasoUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BankTransfer\TraspasoViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BankTransfer\TraspasoViewForm.Designer.cs">
+      <DependentUpon>TraspasoViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TPV\TPVForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TPV\TPVForm.designer.cs">
+      <DependentUpon>TPVForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TPV\TPVUIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TPV\TPVUIForm.designer.cs">
+      <DependentUpon>TPVUIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\CashActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\CashActionForm.Designer.cs">
+      <DependentUpon>CashActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\CarteraClientesActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\CarteraClientesActionForm.Designer.cs">
+      <DependentUpon>CarteraClientesActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\CobrosActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\CobrosActionForm.Designer.cs">
+      <DependentUpon>CobrosActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ControlCobrosREAActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ControlCobrosREAActionForm.Designer.cs">
+      <DependentUpon>ControlCobrosREAActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\InvoicesBenefitActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\InvoicesBenefitActionForm.Designer.cs">
+      <DependentUpon>InvoicesBenefitActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\DetalleAlbaranesActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\DetalleAlbaranesActionForm.Designer.cs">
+      <DependentUpon>DetalleAlbaranesActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\HistoricoPreciosActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\HistoricoPreciosActionForm.Designer.cs">
+      <DependentUpon>HistoricoPreciosActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ModelosActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ModelosActionForm.Designer.cs">
+      <DependentUpon>ModelosActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\BankLinesActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\BankLinesActionForm.Designer.cs">
+      <DependentUpon>BankLinesActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\PricesActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\PricesActionForm.Designer.cs">
+      <DependentUpon>PricesActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\PreciosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\PreciosForm.Designer.cs">
+      <DependentUpon>PreciosForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\SalesActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\SalesActionForm.Designer.cs">
+      <DependentUpon>SalesActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\VentasMensualActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VentasMensualActionForm.Designer.cs">
+      <DependentUpon>VentasMensualActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Labels.en.Designer.cs">
+      <DependentUpon>Labels.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Messages.en.Designer.cs">
+      <DependentUpon>Messages.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Labels.Designer.cs">
+      <DependentUpon>Labels.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Messages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Balance\BalanceMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\Balance\BalanceMngForm.Designer.cs">
+      <DependentUpon>BalanceMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Clients\MergeClientsActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\Clients\MergeClientsActionForm.Designer.cs">
+      <DependentUpon>MergeClientsActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Accounting\AccountingSummaryMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\Accounting\AccountingSummaryMngForm.Designer.cs">
+      <DependentUpon>AccountingSummaryMngForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Accounting\AccountingExporterActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\Accounting\AccountingExporterActionForm.Designer.cs">
+      <DependentUpon>AccountingExporterActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Exporter\CompanyExporterActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\Exporter\CompanyExporterActionForm.Designer.cs">
+      <DependentUpon>CompanyExporterActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\CreditCardStatement\CreditCardStatementMngForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\CreditCardStatement\CreditCardStatementMngForm.Designer.cs">
+      <DependentUpon>CreditCardStatementMngForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\Cash\CashCount\CashCountAddForm.resx">
+      <DependentUpon>CashCountAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\Invoice\InvoiceChargesForm.resx">
+      <DependentUpon>InvoiceChargesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Client\ClientUIForm.resx">
+      <DependentUpon>ClientUIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Delivery\DeliveryAddForm.resx">
+      <DependentUpon>DeliveryAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Delivery\DeliveryEditForm.resx">
+      <DependentUpon>DeliveryEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Delivery\DeliveryForm.en.resx">
+      <DependentUpon>DeliveryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Delivery\DeliveryForm.resx">
+      <DependentUpon>DeliveryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Delivery\DeliveryMngForm.en.resx">
+      <DependentUpon>DeliveryMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Delivery\DeliveryMngForm.resx">
+      <DependentUpon>DeliveryMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Delivery\DeliveryUIForm.resx">
+      <DependentUpon>DeliveryUIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Delivery\DeliveryViewForm.resx">
+      <DependentUpon>DeliveryViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Delivery\DeliveryLine\DeliveryLineMngForm.resx">
+      <DependentUpon>DeliveryLineMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Delivery\DeliveryLine\DeliveryLineEditForm.resx">
+      <DependentUpon>DeliveryLineEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Delivery\DeliveryLine\DeliveryLineUIForm.resx">
+      <DependentUpon>DeliveryLineUIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cash\CashEditForm.resx">
+      <DependentUpon>CashEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cash\CashForm.resx">
+      <DependentUpon>CashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cash\CashMngForm.resx">
+      <DependentUpon>CashMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cash\CashUIForm.resx">
+      <DependentUpon>CashUIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cash\CashCount\CashCountForm.resx">
+      <DependentUpon>CashCountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cash\CashCount\CashCountMngForm.resx">
+      <DependentUpon>CashCountMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cash\CashCount\CashCountUIForm.resx">
+      <DependentUpon>CashCountUIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cash\CashLineMngForm.resx">
+      <DependentUpon>CashLineMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Client\ClientAddForm.resx">
+      <DependentUpon>ClientAddForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Client\ClientEditForm.resx">
+      <DependentUpon>ClientEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Client\ClientForm.resx">
+      <DependentUpon>ClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Client\ClientMngForm.en.resx">
+      <DependentUpon>ClientMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Client\ClientMngForm.resx">
+      <DependentUpon>ClientMngForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Client\ClientViewForm.resx">
+      <DependentUpon>ClientViewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\ClientChargeMngForm.en.resx">
+      <DependentUpon>ClientChargeMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\Invoice\CobroFacturaAddForm.resx">
+      <DependentUpon>CobroFacturaAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\Invoice\CobroFacturaEditForm.resx">
+      <DependentUpon>CobroFacturaEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\Invoice\CobroFacturaUIForm.en.resx">
+      <DependentUpon>CobroFacturaUIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\Invoice\CobroFacturaUIForm.resx">
+      <DependentUpon>CobroFacturaUIForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\CobroForm.en.resx">
+      <DependentUpon>CobroForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\CobroForm.resx">
+      <DependentUpon>CobroForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\ClientChargeMngForm.resx">
+      <DependentUpon>ClientChargeMngForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\CobroMngForm.en.resx">
+      <DependentUpon>CobroMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\REA\CobroREA\CobroREAViewForm.resx">
+      <DependentUpon>CobroREAViewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\REA\CobroREA\CobroREAForm.resx">
+      <DependentUpon>CobroREAForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\REA\CobroREA\CobroREAMngForm.resx">
+      <DependentUpon>CobroREAMngForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\REA\CobroREA\REAChargeUIForm.resx">
+      <DependentUpon>REAChargeUIForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\CobroMngForm.resx">
+      <DependentUpon>CobroMngForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\Fomento\CobroFomento\CobroFomentoMngForm.resx">
+      <DependentUpon>CobroFomentoMngForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\Fomento\CobroFomento\CobroFomentoViewForm.resx">
+      <DependentUpon>CobroFomentoViewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\Fomento\CobrosFomentoForm.en.resx">
+      <DependentUpon>CobrosFomentoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\Fomento\CobrosFomentoForm.resx">
+      <DependentUpon>CobrosFomentoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\Fomento\CobrosFomentoUIForm.resx">
+      <DependentUpon>CobrosFomentoUIForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\REA\CobrosREAForm.en.resx">
+      <DependentUpon>CobrosREAForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\REA\CobrosREAForm.resx">
+      <DependentUpon>CobrosREAForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\REA\CobrosREAUIForm.resx">
+      <DependentUpon>CobrosREAUIForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\CobroUIForm.resx">
+      <DependentUpon>CobroUIForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\Fomento\CobroFomento\CobroFomentoForm.resx">
+      <DependentUpon>CobroFomentoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Charge\Fomento\CobroFomento\CobroFomentoUIForm.resx">
+      <DependentUpon>CobroFomentoUIForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FinancialCash\FinancialCashEditForm.resx">
+      <DependentUpon>FinancialCashEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FinancialCash\FinancialCashForm.en.resx">
+      <DependentUpon>FinancialCashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FinancialCash\FinancialCashMngForm.en.resx">
+      <DependentUpon>FinancialCashMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FinancialCash\FinancialCashMngForm.resx">
+      <DependentUpon>FinancialCashMngForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FinancialCash\FinancialCashForm.resx">
+      <DependentUpon>FinancialCashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FinancialCash\FinancialCashUIForm.resx">
+      <DependentUpon>FinancialCashUIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FinancialCash\FinancialCashViewForm.resx">
+      <DependentUpon>FinancialCashViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Invoice\InvoiceLineMngForm.resx">
+      <DependentUpon>InvoiceLineMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Invoice\InvoiceAddForm.resx">
+      <DependentUpon>InvoiceAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Invoice\InvoiceEditForm.en.resx">
+      <DependentUpon>InvoiceEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Invoice\InvoiceEditForm.resx">
+      <DependentUpon>InvoiceEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Invoice\InvoiceForm.en.resx">
+      <DependentUpon>InvoiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Invoice\InvoiceForm.resx">
+      <DependentUpon>InvoiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Invoice\InvoiceMngForm.en.resx">
+      <DependentUpon>InvoiceMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Invoice\InvoiceMngForm.resx">
+      <DependentUpon>InvoiceMngForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Invoice\InvoiceUIForm.resx">
+      <DependentUpon>InvoiceUIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Invoice\InvoiceViewForm.en.resx">
+      <DependentUpon>InvoiceViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Invoice\InvoiceViewForm.resx">
+      <DependentUpon>InvoiceViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BankLine\BankLineAddForm.resx">
+      <DependentUpon>BankLineAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BankLine\BankLineEditForm.resx">
+      <DependentUpon>BankLineEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BankLine\BankLineForm.resx">
+      <DependentUpon>BankLineForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BankLine\BankLineMngForm.resx">
+      <DependentUpon>BankLineMngForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BankLine\BankLineUIForm.resx">
+      <DependentUpon>BankLineUIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BankLine\BankLineViewForm.resx">
+      <DependentUpon>BankLineViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Order\LineaPedido\LineaPedidoEditForm.resx">
+      <DependentUpon>LineaPedidoEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Order\LineaPedido\LineaPedidoUIForm.resx">
+      <DependentUpon>LineaPedidoUIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Order\PedidoAddForm.resx">
+      <DependentUpon>PedidoAddForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Order\PedidoEditForm.resx">
+      <DependentUpon>PedidoEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Order\PedidoForm.resx">
+      <DependentUpon>PedidoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Order\PedidoMngForm.resx">
+      <DependentUpon>PedidoMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Order\PedidoUIForm.resx">
+      <DependentUpon>PedidoUIForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Order\PedidoViewForm.resx">
+      <DependentUpon>PedidoViewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Loan\LoanForm.resx">
+      <DependentUpon>LoanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Loan\LoanMngForm.resx">
+      <DependentUpon>LoanMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Loan\LoanUIForm.resx">
+      <DependentUpon>LoanUIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Budget\BudgetLine\BudgetLineEditForm.resx">
+      <DependentUpon>BudgetLineEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Budget\BudgetLine\BudgetLineUIForm.resx">
+      <DependentUpon>BudgetLineUIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Budget\BudgetAddForm.resx">
+      <DependentUpon>BudgetAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Budget\BudgetForm.resx">
+      <DependentUpon>BudgetForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Budget\BudgetMngForm.resx">
+      <DependentUpon>BudgetMngForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Budget\BudgetUIForm.resx">
+      <DependentUpon>BudgetUIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Budget\BudgetViewForm.resx">
+      <DependentUpon>BudgetViewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ticket\TicketAddForm.resx">
+      <DependentUpon>TicketAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ticket\TicketEditForm.resx">
+      <DependentUpon>TicketEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ticket\TicketForm.resx">
+      <DependentUpon>TicketForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ticket\TicketMngForm.resx">
+      <DependentUpon>TicketMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ticket\TicketUIForm.resx">
+      <DependentUpon>TicketUIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ticket\TicketViewForm.resx">
+      <DependentUpon>TicketViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BankTransfer\TraspasoAddForm.resx">
+      <DependentUpon>TraspasoAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BankTransfer\TraspasoEditForm.resx">
+      <DependentUpon>TraspasoEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BankTransfer\TraspasoForm.resx">
+      <DependentUpon>TraspasoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BankTransfer\TraspasoMngForm.resx">
+      <DependentUpon>TraspasoMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BankTransfer\TraspasoUIForm.resx">
+      <DependentUpon>TraspasoUIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TPV\TPVForm.resx">
+      <DependentUpon>TPVForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TPV\TPVUIForm.resx">
+      <DependentUpon>TPVUIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\InvoicesBenefitActionForm.en.resx">
+      <DependentUpon>InvoicesBenefitActionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CashActionForm.resx">
+      <DependentUpon>CashActionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CarteraClientesActionForm.resx">
+      <DependentUpon>CarteraClientesActionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CobrosActionForm.resx">
+      <DependentUpon>CobrosActionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ControlCobrosREAActionForm.resx">
+      <DependentUpon>ControlCobrosREAActionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\InvoicesBenefitActionForm.resx">
+      <DependentUpon>InvoicesBenefitActionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DetalleAlbaranesActionForm.resx">
+      <DependentUpon>DetalleAlbaranesActionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\HistoricoPreciosActionForm.resx">
+      <DependentUpon>HistoricoPreciosActionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ModelosActionForm.resx">
+      <DependentUpon>ModelosActionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BankLinesActionForm.resx">
+      <DependentUpon>BankLinesActionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PricesActionForm.resx">
+      <DependentUpon>PricesActionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PreciosForm.resx">
+      <DependentUpon>PreciosForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\SalesActionForm.resx">
+      <DependentUpon>SalesActionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VentasMensualActionForm.resx">
+      <DependentUpon>VentasMensualActionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Labels.en.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Labels.en.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Messages.en.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.en.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Labels.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Labels.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Messages.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\Balance\BalanceMngForm.resx">
+      <DependentUpon>BalanceMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\Clients\MergeClientsActionForm.resx">
+      <DependentUpon>MergeClientsActionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\Accounting\AccountingSummaryMngForm.en.resx">
+      <DependentUpon>AccountingSummaryMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\Accounting\AccountingSummaryMngForm.resx">
+      <DependentUpon>AccountingSummaryMngForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\Accounting\AccountingExporterActionForm.resx">
+      <DependentUpon>AccountingExporterActionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\Exporter\CompanyExporterActionForm.resx">
+      <DependentUpon>CompanyExporterActionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\CreditCardStatement\CreditCardStatementMngForm.resx">
+      <DependentUpon>CreditCardStatementMngForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\moleQule.Library.ComboBoxSourceList.datasource" />
+    <None Include="Properties\DataSources\moleQule.Library.HComboBoxSourceList.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dialogs\" />
+    <Folder Include="Forms\_Extra\" />
+    <Folder Include="Modules\Hipatia\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\moleQule.Library.Invoice.CobroFacturaInfo.datasource" />
+    <None Include="Properties\DataSources\moleQule.Library.Invoice.TipoIntereses.datasource" />
+    <None Include="Properties\DataSources\moleQule.Library.Store.ExpedienteInfo.datasource" />
+    <None Include="Properties\DataSources\moleQule.Library.Store.Payment.datasource" />
+    <None Include="Properties\DataSources\moleQule.Library.Store.WorkReportInfo.datasource" />
+    <None Include="Resources\proforma.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pedido_cliente.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\factura_emitida.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ticket.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apunte_bancario.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pago.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goToSource.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output_delivery_work.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cobro_factura_emitida.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data_out.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data_out_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\working.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy ".\*" "..\..\..\..\moleQule\packages\$(ProjectName)\$(PlatformName)\$(ConfigurationName)"  /Y /R /I /E</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ADVISE_TITLE" xml:space="preserve">
+    <value>Aviso</value>
+  </data>
+  <data name="ALBARAN_FACTURADOS" xml:space="preserve">
+    <value>Albaranes Facturados</value>
+  </data>
+  <data name="ALBARAN_NO_FACTURADOS" xml:space="preserve">
+    <value>Albaranes No Facturados</value>
+  </data>
+  <data name="ALBARAN_TODOS" xml:space="preserve">
+    <value>Todos los Albaranes</value>
+  </data>
+  <data name="ALBARANES_CONTADO_TITLE" xml:space="preserve">
+    <value>Albaranes de Contado</value>
+  </data>
+  <data name="CABEZA_INPUT_TITLE" xml:space="preserve">
+    <value>Nueva Cabeza de Ganado</value>
+  </data>
+  <data name="CAJA_EDIT_TITLE" xml:space="preserve">
+    <value>Modificar Caja </value>
+  </data>
+  <data name="CAJA_DETAIL_TITLE" xml:space="preserve">
+    <value>Detalle de Caja</value>
+  </data>
+  <data name="CLIENTE_ADD_TITLE" xml:space="preserve">
+    <value>Nuevo Cliente:</value>
+  </data>
+  <data name="CLIENTE_DETAIL_TITLE" xml:space="preserve">
+    <value>Detalle de Cliente:</value>
+  </data>
+  <data name="CLIENTE_EDIT_TITLE" xml:space="preserve">
+    <value>Modificar Cliente:</value>
+  </data>
+  <data name="CLIENTES" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="COBRO_ADD_TITLE" xml:space="preserve">
+    <value>Nuevo Cobro:</value>
+  </data>
+  <data name="COBRO_CLIENTES" xml:space="preserve">
+    <value>Cobros: Cobros a Clientes</value>
+  </data>
+  <data name="COBRO_DETAIL_TITLE" xml:space="preserve">
+    <value>Detalle de Cobro:</value>
+  </data>
+  <data name="COBRO_EDIT_TITLE" xml:space="preserve">
+    <value>Editar Cobro:</value>
+  </data>
+  <data name="COBRO_LOCALIZE_TITLE" xml:space="preserve">
+    <value>Buscar Cobro:</value>
+  </data>
+  <data name="COBRO_REA_ADD_TITLE" xml:space="preserve">
+    <value>Nuevo Cobro REA</value>
+  </data>
+  <data name="COBRO_REA_EDIT_TITLE" xml:space="preserve">
+    <value>Editar Cobro REA:</value>
+  </data>
+  <data name="COBRO_TODOS" xml:space="preserve">
+    <value>Cobros: Lista Completa</value>
+  </data>
+  <data name="COBROFACTURA_NEW_TITLE" xml:space="preserve">
+    <value>Nuevo Cobro de Factura:</value>
+  </data>
+  <data name="CONCEPTO_EDIT_TITLE" xml:space="preserve">
+    <value>Editar Concepto</value>
+  </data>
+  <data name="CONCEPTO_NEW_TITLE" xml:space="preserve">
+    <value>Nuevo Concepto</value>
+  </data>
+  <data name="CONCEPTOLIBRE_TITLE" xml:space="preserve">
+    <value>Concepto Libre:</value>
+  </data>
+  <data name="CONFIRM_TITLE" xml:space="preserve">
+    <value>Confirmar acción</value>
+  </data>
+  <data name="EMPTY_REPORT" xml:space="preserve">
+    <value>Informe vacio</value>
+  </data>
+  <data name="FACTURA_COBRADAS" xml:space="preserve">
+    <value>Facturas Emitidas: Cobradas</value>
+  </data>
+  <data name="FACTURA_PENDIENTES" xml:space="preserve">
+    <value>Facturas Emitidas: Pendientes</value>
+  </data>
+  <data name="FACTURA_RECIBIDAS_PAGADAS" xml:space="preserve">
+    <value>Facturas Recibidas: Pagadas</value>
+  </data>
+  <data name="FACTURA_RECIBIDAS_PENDIENTES" xml:space="preserve">
+    <value>Facturas Recibidas: Pendientes</value>
+  </data>
+  <data name="FACTURA_RECIBIDAS_TODAS" xml:space="preserve">
+    <value>Facturas Recibidas: Listado Completo</value>
+  </data>
+  <data name="FACTURA_TODAS" xml:space="preserve">
+    <value>Facturas Emitidas: Listado Completo</value>
+  </data>
+  <data name="GASTO_EDIT_TITLE" xml:space="preserve">
+    <value>Editar Gasto:</value>
+  </data>
+  <data name="GASTO_NEW_TITLE" xml:space="preserve">
+    <value>Nuevo Gasto</value>
+  </data>
+  <data name="GASTO_VIEW_TITLE" xml:space="preserve">
+    <value>Ver Gasto:</value>
+  </data>
+  <data name="INFORME_CARTERA_TITLE" xml:space="preserve">
+    <value>Informe: Cartera de Clientes</value>
+  </data>
+  <data name="INFORME_INVENTARIO_VALORADO_TITLE" xml:space="preserve">
+    <value>Informe: Inventario Valorado</value>
+  </data>
+  <data name="INFORME_MOVIMIENTOS_STOCK_TITLE" xml:space="preserve">
+    <value>Informe: Movimientos de Stock</value>
+  </data>
+  <data name="INFORME_PAGOS_TITLE" xml:space="preserve">
+    <value>Informe: Control de Pagos</value>
+  </data>
+  <data name="INFORME_PRECIOS_CLIENTES" xml:space="preserve">
+    <value>PRECIOS DE VENTA POR CLIENTES</value>
+  </data>
+  <data name="INFORME_PRECIOS_PROVEEDORES" xml:space="preserve">
+    <value>PRECIOS DE COMPRA POR PROVEEDORES</value>
+  </data>
+  <data name="INFORME_PRECIOS_TITLE" xml:space="preserve">
+    <value>Informe: Listado de Precios</value>
+  </data>
+  <data name="LISTA_PRODUCTOS_TITLE" xml:space="preserve">
+    <value>Lista de Productos</value>
+  </data>
+  <data name="LISTAPRODPROV_TITLE" xml:space="preserve">
+    <value>Productos asociados a un proveedor</value>
+  </data>
+  <data name="MOVS_BANCOS_LIST_REPORT_TITLE" xml:space="preserve">
+    <value>Movimientos de bancos</value>
+  </data>
+  <data name="OTROS_GASTOS_TITLE" xml:space="preserve">
+    <value>Otros Gastos:</value>
+  </data>
+  <data name="PRECIO_EDIT_TITLE" xml:space="preserve">
+    <value>Editar Precio</value>
+  </data>
+  <data name="PRECIO_INPUT_TITLE" xml:space="preserve">
+    <value>Seleccione un Precio:</value>
+  </data>
+  <data name="PRECIO_NEW_TITLE" xml:space="preserve">
+    <value>Nuevo Precio</value>
+  </data>
+  <data name="PROVEEDORES" xml:space="preserve">
+    <value>Proveedores</value>
+  </data>
+  <data name="SELECT_CLIENT" xml:space="preserve">
+    <value>Seleccione un Cliente:</value>
+  </data>
+  <data name="SELECT_COBRO_TITLE" xml:space="preserve">
+    <value>Cobros disponibles de:</value>
+  </data>
+  <data name="SELECT_DESPACHANTE" xml:space="preserve">
+    <value>Seleccione un despachante</value>
+  </data>
+  <data name="SELECT_EMPRESA" xml:space="preserve">
+    <value>Seleccione una empresa</value>
+  </data>
+  <data name="SELECT_NAVIERA" xml:space="preserve">
+    <value>Seleccione una naviera</value>
+  </data>
+  <data name="SELECT_PROVEEDOR" xml:space="preserve">
+    <value>Seleccione un proveedor</value>
+  </data>
+  <data name="SELECT_PUERTO" xml:space="preserve">
+    <value>Seleccione un puerto</value>
+  </data>
+  <data name="SELECT_SERIE" xml:space="preserve">
+    <value>Seleccione una serie</value>
+  </data>
+  <data name="SELECT_TRANSPORTISTA" xml:space="preserve">
+    <value>Seleccione un transportista</value>
+  </data>
+  <data name="SERVICIOPROVEEDOR_ADD_TITLE" xml:space="preserve">
+    <value>Añadir Servicio</value>
+  </data>
+  <data name="SERVICIOPROVEEDOR_DETAIL_TITLE" xml:space="preserve">
+    <value>Detalles del Servicio</value>
+  </data>
+  <data name="SERVICIOPROVEEDOR_EDIT_TITLE" xml:space="preserve">
+    <value>Editar Servicio</value>
+  </data>
+  <data name="CAJA_REPORT_TITLE" xml:space="preserve">
+    <value>Listado de Caja</value>
+  </data>
+  <data name="IMPORTE_COBRO" xml:space="preserve">
+    <value>Importe asignado a la Factura</value>
+  </data>
+  <data name="COBROS_TI" xml:space="preserve">
+    <value>Ficha de Cobros</value>
+  </data>
+  <data name="CAJA_ADD_TITLE" xml:space="preserve">
+    <value>Nueva Caja</value>
+  </data>
+  <data name="IMPORTAR_PEDIDO" xml:space="preserve">
+    <value>Importar Pedido</value>
+  </data>
+  <data name="IMPORTAR_PROFORMA" xml:space="preserve">
+    <value>Importar Presupuesto</value>
+  </data>
+  <data name="CREAR_FACTURA" xml:space="preserve">
+    <value>Facturar</value>
+  </data>
+  <data name="NUEVO_TICKET" xml:space="preserve">
+    <value>Crear Ticket</value>
+  </data>
+  <data name="CREAR_ALBARAN" xml:space="preserve">
+    <value>Crear Albarán de Salida</value>
+  </data>
+  <data name="ULTIMAS_VENTAS_PRODUCTO" xml:space="preserve">
+    <value>Últimas ventas del producto</value>
+  </data>
+  <data name="ACTIVO" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="PASIVO" xml:space="preserve">
+    <value>Pasivo</value>
+  </data>
+  <data name="AYUDAS" xml:space="preserve">
+    <value>Ayudas</value>
+  </data>
+  <data name="EXISTENCIAS" xml:space="preserve">
+    <value>Existencias</value>
+  </data>
+  <data name="PENDIENTE_COBRO" xml:space="preserve">
+    <value>Pendiente de Cobro</value>
+  </data>
+  <data name="TESORERIA" xml:space="preserve">
+    <value>Tesorería</value>
+  </data>
+  <data name="FACTURAS_PENDIENTES_PAGO" xml:space="preserve">
+    <value>Facturas Pendientes de Pago</value>
+  </data>
+  <data name="GASTOS_ESTIMADOS" xml:space="preserve">
+    <value>Gastos Pendientes Estimados</value>
+  </data>
+  <data name="GASTOS_IRPF" xml:space="preserve">
+    <value>IRPF</value>
+  </data>
+  <data name="GASTOS_PENDIENTES" xml:space="preserve">
+    <value>Gastos Pendientes de Pago</value>
+  </data>
+  <data name="GASTOS_SEGURIDAD_SOCIAL" xml:space="preserve">
+    <value>Seguridad Social</value>
+  </data>
+  <data name="PAGOS_ESTIMADOS" xml:space="preserve">
+    <value>Pagos Estimados</value>
+  </data>
+  <data name="ESTIMADO_DESPACHANTE" xml:space="preserve">
+    <value>Despachantes</value>
+  </data>
+  <data name="ESTIMADO_NAVIERA" xml:space="preserve">
+    <value>Navieras</value>
+  </data>
+  <data name="ESTIMADO_PROVEEDOR" xml:space="preserve">
+    <value>Proveedores</value>
+  </data>
+  <data name="ESTIMADO_TRANS_DESTINO" xml:space="preserve">
+    <value>Trans. Destino</value>
+  </data>
+  <data name="ESTIMADO_TRANS_ORIGEN" xml:space="preserve">
+    <value>Trans. Origen</value>
+  </data>
+  <data name="FACTURAS_ESTIMADAS" xml:space="preserve">
+    <value>Facturas Estimadas Pendientes</value>
+  </data>
+  <data name="NOMINAS" xml:space="preserve">
+    <value>Nóminas</value>
+  </data>
+  <data name="OTROS_GASTOS" xml:space="preserve">
+    <value>Otros Gastos</value>
+  </data>
+  <data name="AYUDAS_REA_COBRADAS" xml:space="preserve">
+    <value>Ayudas REA Cobradas</value>
+  </data>
+  <data name="AYUDAS_FOMENTO_COBRADAS" xml:space="preserve">
+    <value>Ayudas Fomento Cobradas</value>
+  </data>
+  <data name="AYUDAS_REA_PENDIENTES" xml:space="preserve">
+    <value>Ayudas REA (Alimentación)</value>
+  </data>
+  <data name="AYUDAS_FOMENTO_PENDIENTES" xml:space="preserve">
+    <value>Ayudas Transporte (Fomento)</value>
+  </data>
+  <data name="AYUDAS_POSEI_PENDIENTES" xml:space="preserve">
+    <value>Ayudas POSEI (Ganado)</value>
+  </data>
+  <data name="FACTURAS_EMITIDAS_DUDOSO_COBRO" xml:space="preserve">
+    <value>Fras. Emitidas de Dudoso Cobro</value>
+  </data>
+  <data name="FACTURAS_EMITIDAS_PENDIENTES" xml:space="preserve">
+    <value>Facturas Emitidas Pendientes</value>
+  </data>
+  <data name="RESULTADO_BALANCE" xml:space="preserve">
+    <value>RESULTADO</value>
+  </data>
+  <data name="FACTURAS_EXPEDIENTES_PENDIENTES" xml:space="preserve">
+    <value>Facturas de Expedientes Ptes.</value>
+  </data>
+  <data name="FACTURAS_EXPLOTACION_PENDIENTES" xml:space="preserve">
+    <value>Facturas de Explotación Ptes.</value>
+  </data>
+  <data name="MOROSOS" xml:space="preserve">
+    <value>MOROSOS</value>
+  </data>
+  <data name="RIESGO" xml:space="preserve">
+    <value>RIESGO</value>
+  </data>
+  <data name="APLICAR_CAMBIOS" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="IMPRIMIR_HISTORIA" xml:space="preserve">
+    <value>Imprimir Historia</value>
+  </data>
+  <data name="AUDITAR_TI" xml:space="preserve">
+    <value>Auditar</value>
+  </data>
+  <data name="CLIENTE_TI" xml:space="preserve">
+    <value>Ficha del Cliente</value>
+  </data>
+  <data name="NEW_EXTRACTO_TI" xml:space="preserve">
+    <value>Crear extractos pendientes</value>
+  </data>
+  <data name="GRAPH_TI" xml:space="preserve">
+    <value>Ver Gráfica</value>
+  </data>
+  <data name="PRINT_DETAIL_TI" xml:space="preserve">
+    <value>Imprimir Detalle</value>
+  </data>
+  <data name="PRINT_COBROS_LIST" xml:space="preserve">
+    <value>Imprimir Ficha</value>
+  </data>
+  <data name="SEND_EMAIL" xml:space="preserve">
+    <value>Enviar email</value>
+  </data>
+  <data name="COBROS_FOMENTO_EDIT_TITLE" xml:space="preserve">
+    <value>Editar Cobros de Fomento:</value>
+  </data>
+  <data name="ORIGEN_TI" xml:space="preserve">
+    <value>Ir a Origen</value>
+  </data>
+  <data name="EFFECT_DETAIL_TITLE" xml:space="preserve">
+    <value>Detalle de Efecto:</value>
+  </data>
+  <data name="EFFECT_EDIT_TITLE" xml:space="preserve">
+    <value>Modificar Efecto:</value>
+  </data>
+  <data name="GENERAR_PAGOS" xml:space="preserve">
+    <value>Generar Pagos</value>
+  </data>
+  <data name="INVOICE_CHARGES_TI" xml:space="preserve">
+    <value>Cobros de Factura</value>
+  </data>
+  <data name="EXPORT_TO_COMPANY" xml:space="preserve">
+    <value>Exportar a Empresa</value>
+  </data>
+  <data name="LOANS" xml:space="preserve">
+    <value>Préstamos</value>
+  </data>
+  <data name="PRESTAMOS_COMERCIO_EXTERIOR" xml:space="preserve">
+    <value>Comercio Exterior</value>
+  </data>
+</root>

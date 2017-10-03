@@ -1,0 +1,9 @@
+/* UPDATE 6.13.0.0*/
+
+SET SEARCH_PATH = "COMMON";
+
+UPDATE "Variable" SET "VALUE" = '6.13.0.0' WHERE "NAME" = 'INVOICE_DB_VERSION';
+	
+SET SEARCH_PATH = "0001";
+
+UPDATE "Cliente" SET "CODIGO" = lpad(cast("SERIAL" AS varchar), 7, '0');

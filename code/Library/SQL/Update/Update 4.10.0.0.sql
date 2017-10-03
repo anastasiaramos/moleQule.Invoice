@@ -1,0 +1,22 @@
+﻿/* UPDATE 4.10.0.0*/
+
+SET SEARCH_PATH = "COMMON";
+
+UPDATE "Variable" SET "VALUE" = '4.10.0.0' WHERE "NAME" = 'INVOICE_DB_VERSION';
+
+ALTER TABLE "Cliente" SET SCHEMA "0001";
+
+UPDATE "COMMON"."Entidad" SET "OBSERVACIONES" = 'Clientes' WHERE "TIPO" = 'Cliente';
+UPDATE "COMMON"."Entidad" SET "OBSERVACIONES" = 'Cobros' WHERE "TIPO" = 'Cobro'; 
+UPDATE "COMMON"."Entidad" SET "OBSERVACIONES" = 'Facturas Emitidas' WHERE "TIPO" = 'Factura';
+
+SET SEARCH_PATH = "0001";
+
+ALTER TABLE "Albaran" ADD COLUMN "ESTADO" bigint DEFAULT 1;
+
+UPDATE "Albaran" SET "ESTADO" = 1;
+
+UPDATE "Albaran" SET "ESTADO" = 6
+FROM (SELECT DISTINCT "OID_ALBARAN"
+     FROM "Albaran_Factura") AS AF
+WHERE "Albaran"."OID" = AF."OID_ALBARAN";

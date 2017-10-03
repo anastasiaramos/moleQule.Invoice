@@ -1,0 +1,19 @@
+﻿/* UPDATE 6.2.0.0*/
+
+SET SEARCH_PATH = "COMMON";
+
+UPDATE "Variable" SET "VALUE" = '6.2.0.0' WHERE "NAME" = 'INVOICE_DB_VERSION';
+
+SET SEARCH_PATH = "0001";
+
+ALTER TABLE "ConceptoAlbaran" ADD COLUMN "CODIGO_PRODUCTO_CLIENTE" varchar(255);
+ALTER TABLE "ConceptoFactura" ADD COLUMN "CODIGO_PRODUCTO_CLIENTE" varchar(255);
+ 
+ALTER TABLE "MovimientoBanco" ALTER COLUMN "FECHA_VENCIMIENTO" type timestamp without time zone;
+
+/*UPDATE "MovimientoBanco" SET "SERIAL" = C."NROW", "CODIGO" = trim(to_char(C."NROW", '00000')), "FECHA_VENCIMIENTO" = "FECHA_VENCIMIENTO" + CAST(CAST (C."NROW" as text) || ' seconds' AS INTERVAL)
+FROM (SELECT "OID", ROW_NUMBER() OVER (ORDER BY "FECHA") AS "NROW"
+     FROM "MovimientoBanco" 
+     WHERE "FECHA_VENCIMIENTO" >= '2013-01-01'
+     ORDER BY "FECHA_VENCIMIENTO") AS C
+WHERE "MovimientoBanco"."OID" = C."OID";*/

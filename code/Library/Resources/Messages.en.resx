@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ALBARANES_ASOCIADOS" xml:space="preserve">
+    <value>No es posible eliminar este registro del sistema. Existen albaranes asociados.</value>
+    <comment>IsPosibleDelete()</comment>
+  </data>
+  <data name="ALBARAN_NO_ANULADO" xml:space="preserve">
+    <value>No es posible eliminar un albarán con estado distinto de 'Abierto'</value>
+    <comment>IsPosibleDelete()</comment>
+  </data>
+  <data name="APUNTE_COBRO" xml:space="preserve">
+    <value>Cobro Fras. {0}</value>
+  </data>
+  <data name="APUNTE_GASTOS_BANCARIOS" xml:space="preserve">
+    <value>Gastos bancarios pago nº {0}</value>
+  </data>
+  <data name="APUNTE_PAGO" xml:space="preserve">
+    <value>Pago de Fras. {0}</value>
+  </data>
+  <data name="APUNTE_PAGO_FACTURA" xml:space="preserve">
+    <value>Pago de Fra. nº {0} ({1})</value>
+  </data>
+  <data name="APUNTE_PAGO_GASTO" xml:space="preserve">
+    <value>Pago de Gastos nº {0}</value>
+  </data>
+  <data name="APUNTE_REMESA_NOMINA" xml:space="preserve">
+    <value>Pago de Nóminas nº {0}</value>
+  </data>
+  <data name="BILLED_DELIVERY" xml:space="preserve">
+    <value>The delivery nº {0} has been already billed in the invoice nº {1}</value>
+  </data>
+  <data name="BORRADO_PRODUCTO_ASOCIADO" xml:space="preserve">
+    <value>Eliminado el producto {0} con precio {1} por el usuario {2}</value>
+  </data>
+  <data name="CIERRE_CAJA_COBRO" xml:space="preserve">
+    <value>Imposible eliminar un cobro incluido en un cierre de caja</value>
+  </data>
+  <data name="CIERRE_EXISTENTE" xml:space="preserve">
+    <value>Ya existe un cierre de caja para la fecha indicada</value>
+    <comment>IsPosibleDelete()</comment>
+  </data>
+  <data name="COBROS_ASOCIADOS" xml:space="preserve">
+    <value>No es posible eliminar este registro del sistema. Existen cobros asociados.</value>
+  </data>
+  <data name="DIA_MES_NO_VALIDO" xml:space="preserve">
+    <value>El día del mes indicado no es posible.</value>
+  </data>
+  <data name="DUPLICATE_INVOICE_CODE" xml:space="preserve">
+    <value>Duplicate Invoice Number</value>
+  </data>
+  <data name="EDITADO_PRODUCTO_ASOCIADO" xml:space="preserve">
+    <value>Modificado el producto {0} al precio {1} por el usuario {2}</value>
+  </data>
+  <data name="ERROR_APUNTE_MULTIPLE_EDIT" xml:space="preserve">
+    <value>Imposible cambiar el año de un movimiento asociado a otros movimientos. Debe realizar la edición desde la operación asociada.</value>
+  </data>
+  <data name="ERROR_EXPORTANDO_AYUDA_FOMENTO" xml:space="preserve">
+    <value>No ha sido posible exportar la línea de Fomento con ID {0}
+{1}</value>
+    <comment>Error exportando una línea de Fomento a contabilidad</comment>
+  </data>
+  <data name="ERROR_EXPORTANDO_AYUDA_REA" xml:space="preserve">
+    <value>No ha sido posible exportar el expediente REA con ID {0}
+{1}</value>
+    <comment>Error exportando un expediente REA a contabilidad</comment>
+  </data>
+  <data name="ERROR_EXPORTANDO_COBRO" xml:space="preserve">
+    <value>No ha sido posible exportar el cobro con ID {0}
+{1}</value>
+    <comment>Error exportando un cobro a contabilidad</comment>
+  </data>
+  <data name="ERROR_EXPORTANDO_FACTURA" xml:space="preserve">
+    <value>No ha sido posible exportar la factura con ID {0}
+{1}</value>
+    <comment>Error exportando una factura a contabilidad</comment>
+  </data>
+  <data name="ERROR_EXPORTANDO_GASTO" xml:space="preserve">
+    <value>No ha sido posible exportar el gasto con ID {0}
+{1}</value>
+    <comment>Error exportando un gasto a contabilidad</comment>
+  </data>
+  <data name="ERROR_EXPORTANDO_NOMINA" xml:space="preserve">
+    <value>No ha sido posible exportar la nómina con ID {0}
+{1}</value>
+    <comment>Error exportando una nómina a contabilidad</comment>
+  </data>
+  <data name="ERROR_EXPORTANDO_PAGO" xml:space="preserve">
+    <value>No ha sido posible exportar el pago con ID {0}
+{1}</value>
+    <comment>Error exportando un pago a contabilidad</comment>
+  </data>
+  <data name="ERROR_EXPORTANDO_TRASPASO" xml:space="preserve">
+    <value>No ha sido posible exportar el traspaso con ID {0} {1}</value>
+  </data>
+  <data name="ERROR_FACTURA_CUENTA" xml:space="preserve">
+    <value>Imposible exportar la factura nº {0} de {1}. Revise las cuentas contables asociadas.</value>
+  </data>
+  <data name="ERROR_FACTURA_IMPUESTO" xml:space="preserve">
+    <value>Imposible exportar la factura nº {0} de {1}. Revise los impuestos asociados.</value>
+  </data>
+  <data name="ERROR_PREAUTHORIZATION_RELEASED" xml:space="preserve">
+    <value>There was a problem releasing the deposit of {0} {1}. Please, contact admin!</value>
+  </data>
+  <data name="ERROR_PREAUTH_CHARGE" xml:space="preserve">
+    <value>There was a problem making the charge of {0} {1}. Please, contact admin!</value>
+  </data>
+  <data name="EXPORTING_COMPANY_EQUALS" xml:space="preserve">
+    <value>The destination company must be different to the active company</value>
+  </data>
+  <data name="FACTURAS_ASOCIADAS" xml:space="preserve">
+    <value>No es posible eliminar este registro del sistema. Existen facturas asociadas.</value>
+    <comment>IsPosibleDelete()</comment>
+  </data>
+  <data name="FACTURA_EMAIL_ATTACHMENT_BODY" xml:space="preserve">
+    <value>Estimado cliente.
+
+Adjunto remito la factura de los servicios prestados.
+
+Gracias por confiar en {0}.
+</value>
+  </data>
+  <data name="FACTURA_EMAIL_ERROR" xml:space="preserve">
+    <value>Error enviando la factura {0}</value>
+  </data>
+  <data name="FACTURA_EMAIL_LINK_BODY" xml:space="preserve">
+    <value>Estimado cliente.
+
+En el siguiente enlace puede acceder a la factura de los servicios prestados.
+
+{0}
+
+Gracias por confiar en {1}.
+</value>
+  </data>
+  <data name="FACTURA_EMAIL_OK" xml:space="preserve">
+    <value>Envío de factura {0}</value>
+  </data>
+  <data name="FACTURA_EMAIL_SUBJECT" xml:space="preserve">
+    <value>Factura</value>
+  </data>
+  <data name="FACTURA_NO_ANULADA" xml:space="preserve">
+    <value>No es posible eliminar una factura con estado distinto de 'Abierto'</value>
+    <comment>IsPosibleDelete()</comment>
+  </data>
+  <data name="FIELD_REQUIRED" xml:space="preserve">
+    <value>Campo requerido</value>
+  </data>
+  <data name="ID_PEDIDO_DUPLICADO" xml:space="preserve">
+    <value>Nº de Pedido duplicado</value>
+  </data>
+  <data name="ID_PEDIDO_INVALIDO" xml:space="preserve">
+    <value>Nº de Pedido incorrecto.
+Debe tener el formato "{0}"</value>
+  </data>
+  <data name="INVALID_INVOICE_CODE" xml:space="preserve">
+    <value>Invalid Invoice Number.
+It must have the format {0}.</value>
+  </data>
+  <data name="LOAN_WITH_PAYMENTS" xml:space="preserve">
+    <value>No es posible modificar un préstamo con pagos asociados</value>
+  </data>
+  <data name="MOVIMIENTO_AUDITADO" xml:space="preserve">
+    <value>El apunte bancario que intenta modificar ha sido auditado por otro usuario y sólo podrá ser editado por el mismo usuario auditor.</value>
+  </data>
+  <data name="MOVIMIENTO_BANCARIO_AUDITADO" xml:space="preserve">
+    <value>La operación que está intentando modificar tiene asociado un movimiento bancario que ya ha sido auditado. Para poder realizar los cambios tendrá que desmarcar previamente como auditados los movimientos asociados.</value>
+  </data>
+  <data name="NOTA_EXENTO_IGIC" xml:space="preserve">
+    <value>Operación NO SUJETA A IGIC en base al cap. III, art. 17, apdo. 2, letra B de la Ley 20/91, de 07 de Junio de modificación de los aspectos fiscales del régimen económico y fiscal de Canarias (B.O.E. 137)</value>
+  </data>
+  <data name="NO_AYUDA_ACCOUNT" xml:space="preserve">
+    <value>La ayuda '{0}' no tiene cuenta contable asociada</value>
+  </data>
+  <data name="NO_CLIENTE_SELECTED" xml:space="preserve">
+    <value>No se ha seleccionado ningún cliente</value>
+  </data>
+  <data name="NO_CUENTA_BANCARIA_SELECTED" xml:space="preserve">
+    <value>No se ha seleccionado ninguna cuenta bancaria</value>
+  </data>
+  <data name="NO_CUENTA_BANCARIA_SELECTED_LC" xml:space="preserve">
+    <value>No se ha seleccionado ninguna cuenta bancaria en la línea con ID {0}</value>
+  </data>
+  <data name="NO_ID_SELECTED" xml:space="preserve">
+    <value>Debe indicar un Código válido</value>
+  </data>
+  <data name="NO_LINEAS_CAJA" xml:space="preserve">
+    <value>No se han encontrado líneas de caja para esa fecha. ¿Desea realizar el cierre de caja para esta fecha?</value>
+  </data>
+  <data name="NO_SERIE_SELECTED" xml:space="preserve">
+    <value>No se ha seleccionado ninguna serie</value>
+  </data>
+  <data name="NO_TPV_SELECTED" xml:space="preserve">
+    <value>No se ha seleccionado ningún TPV</value>
+  </data>
+  <data name="NUEVO_PRODUCTO_ASOCIADO" xml:space="preserve">
+    <value>Asociado el producto {0} con el precio {1} por el usuario {2}</value>
+  </data>
+  <data name="PREAUTHORIZATION_RELEASED" xml:space="preserve">
+    <value>The deposit of {0} {0} has been released</value>
+  </data>
+  <data name="PRECIO_VENTA_CLIENTE_INFERIOR" xml:space="preserve">
+    <value>El precio de venta es inferior al precio de referencia para este cliente.</value>
+  </data>
+  <data name="PRECIO_VENTA_PRODUCTO_INFERIOR" xml:space="preserve">
+    <value>El precio de venta es inferior al precio de referencia de este producto.</value>
+  </data>
+  <data name="PROFORMAS_ASOCIADAS" xml:space="preserve">
+    <value>No es posible eliminar este registro del sistema. Existen facturas proforma asociadas.</value>
+    <comment>IsPosibleDelete()</comment>
+  </data>
+  <data name="RESERVA_POR_PEDIDO" xml:space="preserve">
+    <value>Reserva por Pedido {0}</value>
+  </data>
+  <data name="SALIDA_POR_ALBARAN" xml:space="preserve">
+    <value>Salida por Albarán {0}</value>
+  </data>
+  <data name="TICKETS_ASOCIADOS" xml:space="preserve">
+    <value>No es posible eliminar este registro del sistema. Existen tickets asociados.</value>
+    <comment>IsPosibleDelete()</comment>
+  </data>
+</root>

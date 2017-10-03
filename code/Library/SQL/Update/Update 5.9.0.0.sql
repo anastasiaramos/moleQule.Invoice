@@ -1,0 +1,13 @@
+﻿/* UPDATE 5.9.0.0*/
+
+SET SEARCH_PATH = "COMMON";
+
+UPDATE "Variable" SET "VALUE" = '5.9.0.0' WHERE "NAME" = 'INVOICE_DB_VERSION';
+
+SET SEARCH_PATH = "0001";
+
+ALTER TABLE "Producto_Cliente" ADD COLUMN "PRECIO_COMPRA" numeric(10,2) DEFAULT 0;
+ALTER TABLE "Producto_Cliente" ADD COLUMN "FACTURAR" boolean DEFAULT FALSE;
+ALTER TABLE "Producto_Cliente" ADD COLUMN "FECHA_VALIDEZ" timestamp without time zone;
+
+UPDATE "Producto_Cliente" SET "FECHA_VALIDEZ" = '12/12/2100';
